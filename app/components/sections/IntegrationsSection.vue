@@ -59,7 +59,7 @@ function hasHref(href?: string) {
       </RevealBlock>
 
       <RevealBlock
-        class="mt-10 grid gap-4 sm:mt-12 md:grid-cols-2 md:gap-6 lg:grid-cols-3"
+        class="mt-10 grid gap-4 sm:mt-12 md:grid-cols-2 md:gap-6 md:max-lg:[&>:last-child]:col-span-2 md:max-lg:[&>:last-child]:w-[calc((100%-1.5rem)/2)] md:max-lg:[&>:last-child]:justify-self-center lg:grid-cols-3"
         :delay="180"
       >
         <component
