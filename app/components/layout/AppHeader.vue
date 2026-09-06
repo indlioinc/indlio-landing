@@ -7,11 +7,32 @@ const props = defineProps<{
 }>()
 
 const { ui, sections } = useLandingContent()
+const { resolve } = useBrandLogos()
 
 const route = useRoute()
 const open = ref(false)
 const overHero = ref(isDarkHeroPath(route.path))
 const showBackground = ref(!isDarkHeroPath(route.path))
+
+const logoOnDark = computed(() => overHero.value && !open.value)
+const lightLogo = computed(() => resolve(props.branding.logos.navbarLight))
+const darkLogo = computed(() => resolve(props.branding.logos.navbar))
+
+useHead({
+  link: computed(() => [
+    {
+      rel: 'preload',
+      as: 'image',
+      href: logoOnDark.value ? darkLogo.value : lightLogo.value,
+      fetchpriority: 'high',
+    },
+    {
+      rel: 'preload',
+      as: 'image',
+      href: logoOnDark.value ? lightLogo.value : darkLogo.value,
+    },
+  ]),
+})
 const desktopOpen = ref<string | null>(null)
 const mobileOpen = ref<string | null>(null)
 const megaReady = ref(false)
@@ -242,8 +263,10 @@ onBeforeUnmount(() => {
         <div class="flex min-w-0 items-center justify-self-start">
           <BrandLogo
             :name="branding.name"
-            :icon-src="overHero && !open ? branding.logos.navbar : branding.logos.navbarLight"
-            :full-src="overHero && !open ? branding.logos.navbar : branding.logos.navbarLight"
+            :icon-src="branding.logos.navbarLight"
+            :full-src="branding.logos.navbarLight"
+            :dark-src="branding.logos.navbar"
+            :on-dark="logoOnDark"
             variant="full"
             blend="none"
           />

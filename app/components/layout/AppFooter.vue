@@ -102,6 +102,10 @@ function toggleGroup(columnIndex: number, title: string) {
         <img
           :src="resolve(branding.logos.footer)"
           :alt="branding.name"
+          width="120"
+          height="36"
+          decoding="async"
+          loading="lazy"
           class="h-8 w-auto object-contain sm:h-9"
         >
       </a>
