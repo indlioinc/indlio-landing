@@ -1,0 +1,34 @@
+{
+  "links": [
+    {
+      "label": "Products",
+      "href": "/product-tour",
+      "items": [
+        { "label": "Product tour", "href": "/product-tour", "description": "From first link to first booking.", "icon": "calendar" },
+        { "label": "What's new", "href": "/whats-new", "description": "Notes as we ship.", "icon": "spark" },
+        { "label": "Developer tools", "href": "/developers", "description": "APIs after the path is solid.", "icon": "code" }
+      ]
+    },
+    {
+      "label": "Solutions",
+      "href": "/solutions/individuals",
+      "items": [
+        { "label": "Individuals", "href": "/solutions/individuals", "description": "For solopreneurs" },
+        { "label": "Small business", "href": "/solutions/teams", "description": "For growing businesses" },
+        { "label": "Large companies", "href": "/solutions/studios", "description": "For enterprise" },
+        { "label": "Sales", "href": "/solutions/sales", "description": "Close deals faster" },
+        { "label": "Marketing", "href": "/solutions/marketing", "description": "Generate more leads" },
+        { "label": "Customer success", "href": "/solutions/customer-success", "description": "Connect with customers" },
+        { "label": "Recruiting", "href": "/solutions/recruiting", "description": "Speed up hiring" },
+        { "label": "Education", "href": "/industries/education", "description": "Support student success" },
+        { "label": "Technology", "href": "/industries/technology", "description": "Build better products" },
+        { "label": "Financial Services", "href": "/industries/financial-services", "description": "Boost client engagement" },
+        { "label": "Professional Services", "href": "/industries/professional-services", "description": "Improve client experience" }
+      ]
+    },
+    { "label": "Pricing", "href": "/pricing" }
+  ],
+  "badge": {
+    "label": "Coming soon"
+  }
+}

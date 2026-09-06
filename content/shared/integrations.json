@@ -1,0 +1,108 @@
+{
+  "desktop": [
+    [
+      {
+        "name": "Zoom",
+        "src": "/brand_logo/zoom_2026.webp"
+      },
+      {
+        "name": "Google Calendar",
+        "src": "/brand_logo/google_calendar_2026.webp"
+      },
+      {
+        "name": "Gmail",
+        "src": "/brand_logo/gmail_2026.webp"
+      },
+      {
+        "name": "Google Meet",
+        "src": "/brand_logo/google_meet_2026.webp"
+      },
+      {
+        "name": "Slack",
+        "src": "/brand_logo/slack_2026.webp"
+      },
+      {
+        "name": "Microsoft Teams",
+        "src": "/brand_logo/microsoft_teams_2026.webp"
+      },
+      {
+        "name": "Outlook",
+        "src": "/brand_logo/outlook_2026.webp"
+      },
+      {
+        "name": "Stripe",
+        "src": "/brand_logo/stripe_2026.webp"
+      }
+    ],
+    [
+      {
+        "name": "WhatsApp",
+        "src": "/brand_logo/whatsapp_2026.webp"
+      },
+      {
+        "name": "Razorpay",
+        "src": "/brand_logo/razon_pay_2026.webp"
+      },
+      {
+        "name": "Zoho Calendar",
+        "src": "/brand_logo/zoho_calendar_2026.webp"
+      },
+      {
+        "name": "Paytm",
+        "src": "/brand_logo/paytm_2026.jpg"
+      },
+      {
+        "name": "Webex",
+        "src": "/brand_logo/webex_2026.webp"
+      },
+      {
+        "name": "Intercom",
+        "src": "/brand_logo/intercom_2026.webp"
+      }
+    ]
+  ],
+  "mobile": [
+    [
+      {
+        "name": "Zoom",
+        "src": "/brand_logo/zoom_2026.webp"
+      },
+      {
+        "name": "Google Calendar",
+        "src": "/brand_logo/google_calendar_2026.webp"
+      },
+      {
+        "name": "Gmail",
+        "src": "/brand_logo/gmail_2026.webp"
+      }
+    ],
+    [
+      {
+        "name": "Google Meet",
+        "src": "/brand_logo/google_meet_2026.webp"
+      },
+      {
+        "name": "Slack",
+        "src": "/brand_logo/slack_2026.webp"
+      },
+      {
+        "name": "Microsoft Teams",
+        "src": "/brand_logo/microsoft_teams_2026.webp"
+      }
+    ],
+    [
+      {
+        "name": "Outlook",
+        "src": "/brand_logo/outlook_2026.webp"
+      },
+      {
+        "name": "Stripe",
+        "src": "/brand_logo/stripe_2026.webp"
+      },
+      {
+        "name": "WhatsApp",
+        "src": "/brand_logo/whatsapp_2026.webp"
+      }
+    ]
+  ]
+}

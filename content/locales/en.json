@@ -1,0 +1,1304 @@
+{
+  "seo": {
+    "title": "Indlio — Booking software for Indian SMBs",
+    "description": "India-first booking software that turns WhatsApp conversations into confirmed appointments. Join the waitlist.",
+    "ogImage": "/logos/indlio-full-logo-color-black.png",
+    "ogTitle": "Indlio — booking software for Indian SMBs",
+    "twitterCard": "summary_large_image"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Products",
+        "href": "/product-tour",
+        "items": [
+          {
+            "label": "Product tour",
+            "href": "/product-tour",
+            "description": "From first link to first booking.",
+            "icon": "calendar"
+          },
+          {
+            "label": "What's new",
+            "href": "/whats-new",
+            "description": "Notes as we ship.",
+            "icon": "spark"
+          },
+          {
+            "label": "Developer tools",
+            "href": "/developers",
+            "description": "APIs after the path is solid.",
+            "icon": "code"
+          }
+        ],
+        "columns": [
+          {
+            "heading": "Products",
+            "variant": "featured",
+            "items": [
+              {
+                "label": "Product tour",
+                "href": "/product-tour",
+                "description": "From first link to first booking.",
+                "icon": "calendar"
+              },
+              {
+                "label": "What's new",
+                "href": "/whats-new",
+                "description": "Notes as we ship.",
+                "icon": "spark"
+              },
+              {
+                "label": "Developer tools",
+                "href": "/developers",
+                "description": "APIs after the path is solid.",
+                "icon": "code"
+              }
+            ]
+          },
+          {
+            "heading": "Platform",
+            "variant": "plain",
+            "items": [
+              {
+                "label": "Community",
+                "href": "/community"
+              },
+              {
+                "label": "Become a partner",
+                "href": "/partners"
+              },
+              {
+                "label": "Blog",
+                "href": "/blog"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Solutions",
+        "href": "/solutions/individuals",
+        "items": [
+          {
+            "label": "Individuals",
+            "href": "/solutions/individuals",
+            "description": "For solopreneurs"
+          },
+          {
+            "label": "Small business",
+            "href": "/solutions/teams",
+            "description": "For growing businesses"
+          },
+          {
+            "label": "Large companies",
+            "href": "/solutions/studios",
+            "description": "For enterprise"
+          },
+          {
+            "label": "Sales",
+            "href": "/solutions/sales",
+            "description": "Close deals faster"
+          },
+          {
+            "label": "Marketing",
+            "href": "/solutions/marketing",
+            "description": "Generate more leads"
+          },
+          {
+            "label": "Customer success",
+            "href": "/solutions/customer-success",
+            "description": "Connect with customers"
+          },
+          {
+            "label": "Recruiting",
+            "href": "/solutions/recruiting",
+            "description": "Speed up hiring"
+          },
+          {
+            "label": "Wellness",
+            "href": "/industries/wellness",
+            "description": "Clinics, salons, and trainers"
+          },
+          {
+            "label": "Education",
+            "href": "/industries/education",
+            "description": "Tutors and coaching centres"
+          },
+          {
+            "label": "Professional Services",
+            "href": "/industries/professional-services",
+            "description": "Consultants and agencies"
+          },
+          {
+            "label": "Creative studios",
+            "href": "/industries/creative-studios",
+            "description": "Photographers and designers"
+          },
+          {
+            "label": "Real estate",
+            "href": "/industries/real-estate",
+            "description": "Site visits over WhatsApp"
+          },
+          {
+            "label": "Home services",
+            "href": "/industries/home-services",
+            "description": "Repair and field jobs"
+          }
+        ],
+        "columns": [
+          {
+            "heading": "By business size",
+            "variant": "text",
+            "items": [
+              {
+                "label": "Individuals",
+                "href": "/solutions/individuals",
+                "description": "For solopreneurs"
+              },
+              {
+                "label": "Small business",
+                "href": "/solutions/teams",
+                "description": "For growing businesses"
+              },
+              {
+                "label": "Large companies",
+                "href": "/solutions/studios",
+                "description": "For enterprise"
+              }
+            ]
+          },
+          {
+            "heading": "By team",
+            "variant": "text",
+            "items": [
+              {
+                "label": "Sales",
+                "href": "/solutions/sales",
+                "description": "Close deals faster"
+              },
+              {
+                "label": "Marketing",
+                "href": "/solutions/marketing",
+                "description": "Generate more leads"
+              },
+              {
+                "label": "Customer success",
+                "href": "/solutions/customer-success",
+                "description": "Connect with customers"
+              },
+              {
+                "label": "Recruiting",
+                "href": "/solutions/recruiting",
+                "description": "Speed up hiring"
+              }
+            ]
+          },
+          {
+            "heading": "By industry",
+            "variant": "text",
+            "items": [
+              {
+                "label": "Wellness",
+                "href": "/industries/wellness",
+                "description": "Clinics, salons, and trainers"
+              },
+              {
+                "label": "Education",
+                "href": "/industries/education",
+                "description": "Tutors and coaching centres"
+              },
+              {
+                "label": "Professional Services",
+                "href": "/industries/professional-services",
+                "description": "Consultants and agencies"
+              },
+              {
+                "label": "Creative studios",
+                "href": "/industries/creative-studios",
+                "description": "Photographers and designers"
+              },
+              {
+                "label": "Real estate",
+                "href": "/industries/real-estate",
+                "description": "Site visits over WhatsApp"
+              },
+              {
+                "label": "Home services",
+                "href": "/industries/home-services",
+                "description": "Repair and field jobs"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Pricing",
+        "href": "/pricing"
+      }
+    ],
+    "badge": {
+      "label": "Coming soon"
+    }
+  },
+  "footer": {
+    "columns": [
+      {
+        "groups": [
+          {
+            "title": "Solutions",
+            "links": [
+              {
+                "label": "For individuals",
+                "href": "/solutions/individuals"
+              },
+              {
+                "label": "For teams",
+                "href": "/solutions/teams"
+              },
+              {
+                "label": "For studios",
+                "href": "/solutions/studios"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "groups": [
+          {
+            "title": "Industries",
+            "links": [
+              {
+                "label": "Professional Services",
+                "href": "/industries/professional-services"
+              },
+              {
+                "label": "Education",
+                "href": "/industries/education"
+              },
+              {
+                "label": "Wellness",
+                "href": "/industries/wellness"
+              },
+              {
+                "label": "Creative studios",
+                "href": "/industries/creative-studios"
+              },
+              {
+                "label": "Real estate",
+                "href": "/industries/real-estate"
+              },
+              {
+                "label": "Home services",
+                "href": "/industries/home-services"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "groups": [
+          {
+            "title": "Resources",
+            "links": [
+              {
+                "label": "Join waitlist",
+                "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+              },
+              {
+                "label": "Product tour",
+                "href": "/product-tour"
+              },
+              {
+                "label": "Pricing and plans",
+                "href": "/pricing"
+              },
+              {
+                "label": "What's new",
+                "href": "/whats-new"
+              },
+              {
+                "label": "Community",
+                "href": "/community"
+              },
+              {
+                "label": "Developer tools",
+                "href": "/developers"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "groups": [
+          {
+            "title": "Company",
+            "links": [
+              {
+                "label": "About us",
+                "href": "/about"
+              },
+              {
+                "label": "Careers",
+                "href": "/careers",
+                "badge": "We're hiring!"
+              },
+              {
+                "label": "Become a partner",
+                "href": "/partners"
+              },
+              {
+                "label": "Blog",
+                "href": "/blog"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "storesTitle": "Downloads",
+    "stores": [
+      {
+        "label": "App Store",
+        "href": "",
+        "icon": "apple"
+      },
+      {
+        "label": "Google Play",
+        "href": "",
+        "icon": "play"
+      },
+      {
+        "label": "Microsoft Edge",
+        "href": "",
+        "icon": "edge"
+      },
+      {
+        "label": "Safari",
+        "href": "",
+        "icon": "safari"
+      },
+      {
+        "label": "Google Chrome",
+        "href": "",
+        "icon": "chrome"
+      },
+      {
+        "label": "Firefox",
+        "href": "",
+        "icon": "firefox"
+      },
+      {
+        "label": "Outlook",
+        "href": "",
+        "icon": "outlook"
+      }
+    ],
+    "socialsTitle": "Join us on social",
+    "socials": [
+      {
+        "label": "X",
+        "href": "",
+        "icon": "x"
+      },
+      {
+        "label": "Instagram",
+        "href": "",
+        "icon": "instagram"
+      },
+      {
+        "label": "Facebook",
+        "href": "",
+        "icon": "facebook"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "",
+        "icon": "linkedin"
+      }
+    ],
+    "legal": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy"
+      },
+      {
+        "label": "Legal",
+        "href": "/legal"
+      },
+      {
+        "label": "Cookies",
+        "href": "/cookies"
+      },
+      {
+        "label": "Cookie Settings",
+        "href": "",
+        "id": "cookie-settings"
+      }
+    ],
+    "copyright": "Indlio"
+  },
+  "hero": {
+    "id": "hero",
+    "eyebrow": "Build for everyone",
+    "title": "Turn a WhatsApp chat into a confirmed appointment.",
+    "titleAccent": "",
+    "subtitle": "India-first booking for rooms that still run on calls, sheets, and DMs — not another calendar link.",
+    "form": {
+      "placeholder": "Your work email",
+      "buttonLabel": "Join waitlist",
+      "successMessage": "You’re on the list. We’ll write when Indlio Bookings is ready.",
+      "errorFallback": "Something went wrong. Try again.",
+      "disclaimer": "No spam. Just a thoughtful note when bookings opens."
+    }
+  },
+  "trusted": {
+    "id": "trusted",
+    "eyebrow": "Trusted by"
+  },
+  "integrations": {
+    "id": "integrations",
+    "title": "Connect Indlio with the tools you already use",
+    "subtitle": "A planned integrations layer so bookings can sit next to the calendars, payments, messaging, and video tools SMEs already run.",
+    "suites": [
+      {
+        "name": "Google suite",
+        "logo": "/brand_logo/google_2026.webp",
+        "body": "Google Calendar, Meet, Gmail, and Drive are planned so bookings and follow-ups can live next to the Google tools your team already uses."
+      },
+      {
+        "name": "Microsoft suite",
+        "logo": "/brand_logo/microsoft_2026.png",
+        "body": "Outlook, Teams, and Microsoft 365 are planned so scheduling and conversations can stay in the Microsoft tools you already run."
+      },
+      {
+        "name": "Zoho suite",
+        "logo": "/brand_logo/zoho_2026.jpg",
+        "body": "Zoho Calendar, Cliq, and Mail are planned so bookings and follow-ups can live next to the Zoho tools your team already uses."
+      }
+    ]
+  },
+  "waitlist": {
+    "id": "waitlist",
+    "eyebrow": "Early access",
+    "title": "We’re building Indlio Bookings.",
+    "subtitle": "Join the list. We’ll write when bookings is ready for the first SMEs.",
+    "form": {
+      "placeholder": "Work email",
+      "buttonLabel": "Notify me",
+      "successMessage": "You’re on the list. We’ll write when Indlio Bookings is ready.",
+      "errorFallback": "Something went wrong. Try again."
+    }
+  },
+  "pricing": {
+    "seo": {
+      "title": "Pricing — Indlio Bookings",
+      "description": "Indlio Bookings is billed per user, per workspace. Starter 1–5 people, Premium 2–50, Enterprise 50+. Multi-currency, timezones, integrations, and the customer portal start on Premium."
+    },
+    "eyebrow": "Pricing",
+    "title": "Clear prices. Scale when the team does.",
+    "subtitle": "Every plan is billed per user, per workspace. Starter is 1–5 people, Premium 2–50, Enterprise 50+.",
+    "billing": {
+      "monthlyLabel": "Monthly",
+      "yearlyLabel": "Yearly",
+      "yearlyHint": "15% off",
+      "note": "Billed per user, per workspace on every plan."
+    },
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "₹500",
+        "yearlyPrice": "₹425",
+        "period": "per user / workspace / month",
+        "yearlyPeriod": "per user / workspace / month",
+        "discountLabel": "15% off",
+        "body": "For independents and tiny rooms. 1–5 people on one workspace.",
+        "includesLabel": "Includes",
+        "features": [
+          "1–5 people",
+          "1 booking page",
+          "Indlio watermark on booking page",
+          "Per-user billing",
+          "10 integrations",
+          "Basic reports",
+          "Reminders that cut no-shows"
+        ],
+        "cta": {
+          "label": "Join waitlist",
+          "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+        },
+        "ctaVariant": "primary"
+      },
+      {
+        "name": "Premium",
+        "price": "₹1,000",
+        "yearlyPrice": "₹850",
+        "period": "per user / workspace / month",
+        "yearlyPeriod": "per user / workspace / month",
+        "discountLabel": "15% off",
+        "body": "For studios that share a calendar. 2–50 people on one workspace.",
+        "featured": true,
+        "badge": "Popular",
+        "includesLabel": "Everything in Starter, and",
+        "features": [
+          "2–50 people",
+          "Unlimited booking pages",
+          "Custom forms",
+          "Multi-currency",
+          "Multi-timezone",
+          "Customer portal",
+          "Unlimited integrations",
+          "Staff and room schedules",
+          "Admin permissions",
+          "Standard reports"
+        ],
+        "cta": {
+          "label": "Join waitlist",
+          "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+        },
+        "ctaVariant": "accent"
+      },
+      {
+        "name": "Enterprise",
+        "price": "₹12L",
+        "yearlyPrice": "₹12L",
+        "period": "per workspace / year, from",
+        "yearlyPeriod": "per workspace / year, from",
+        "body": "For groups that need access control and rollout help. 50+ people.",
+        "badge": "50+",
+        "includesLabel": "Everything in Premium, and",
+        "features": [
+          "50+ people",
+          "Unlimited booking pages",
+          "Unlimited integrations",
+          "Multi-location calendars",
+          "Access control",
+          "Custom reports",
+          "Workflows",
+          "Route with Salesforce lookup",
+          "Connect Microsoft Dynamics",
+          "Enable SSO & SAML",
+          "Domain control",
+          "Audit log compliance",
+          "Data deletion API",
+          "Onboarding & implementation",
+          "Dedicated account support"
+        ],
+        "cta": {
+          "label": "Talk to sales",
+          "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+        },
+        "ctaVariant": "outline",
+        "yearlyOnly": true
+      }
+    ],
+    "included": {
+      "title": "Every plan includes",
+      "items": [
+        "Per-user billing",
+        "Booking pages",
+        "Reminders"
+      ]
+    },
+    "comparison": {
+      "title": "Compare features",
+      "subtitle": "You pay per user, per workspace. Starter has 1 booking page, 10 integrations, and basic reports. Premium has the reports a studio needs. Custom reports and workflows are on Enterprise.",
+      "groups": [
+        {
+          "title": "Workspace",
+          "rows": [
+            {
+              "label": "People in the workspace",
+              "hint": "Who can sign in to this workspace",
+              "values": [
+                "1–5",
+                "2–50",
+                "50+"
+              ]
+            },
+            {
+              "label": "Booking pages",
+              "hint": "How many public booking pages this workspace can publish",
+              "values": [
+                "1",
+                "Unlimited",
+                "Unlimited"
+              ]
+            },
+            {
+              "label": "Indlio watermark",
+              "hint": "Shown on Starter booking pages. Premium and Enterprise have none.",
+              "values": [
+                "Yes",
+                "No",
+                "No"
+              ]
+            },
+            {
+              "label": "Per-user billing",
+              "hint": "Billed per user in the workspace",
+              "values": [
+                true,
+                true,
+                true
+              ]
+            },
+            {
+              "label": "Custom forms",
+              "values": [
+                false,
+                true,
+                true
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bookings",
+          "rows": [
+            {
+              "label": "Reminders that cut no-shows",
+              "values": [
+                true,
+                true,
+                true
+              ]
+            },
+            {
+              "label": "Classes and consults",
+              "values": [
+                true,
+                true,
+                true
+              ]
+            },
+            {
+              "label": "Staff and room schedules",
+              "values": [
+                false,
+                true,
+                true
+              ]
+            },
+            {
+              "label": "Multi-location calendars",
+              "values": [
+                false,
+                false,
+                true
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Integrations & setup",
+          "rows": [
+            {
+              "label": "Integrations",
+              "hint": "Starter includes 10 integrations. Unlimited integrations start on Premium.",
+              "values": [
+                "10",
+                "Unlimited",
+                "Unlimited"
+              ]
+            },
+            {
+              "label": "Multi-currency",
+              "values": [
+                false,
+                true,
+                true
+              ]
+            },
+            {
+              "label": "Multi-timezone",
+              "values": [
+                false,
+                true,
+                true
+              ]
+            },
+            {
+              "label": "Admin permissions",
+              "values": [
+                false,
+                true,
+                true
+              ]
+            },
+            {
+              "label": "Customer portal",
+              "values": [
+                false,
+                true,
+                true
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Reports & automation",
+          "rows": [
+            {
+              "label": "Reports",
+              "hint": "Starter has the basics. Premium has the reports a studio needs. Enterprise can have reports built to spec.",
+              "values": [
+                "Basic",
+                "Standard",
+                "Custom"
+              ]
+            },
+            {
+              "label": "Workflows",
+              "hint": "Enterprise only",
+              "values": [
+                false,
+                false,
+                true
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Enterprise",
+          "rows": [
+            {
+              "label": "Route with Salesforce lookup",
+              "values": [
+                false,
+                false,
+                true
+              ]
+            },
+            {
+              "label": "Connect Microsoft Dynamics",
+              "values": [
+                false,
+                false,
+                true
+              ]
+            },
+            {
+              "label": "Enable SSO & SAML",
+              "values": [
+                false,
+                false,
+                true
+              ]
+            },
+            {
+              "label": "Domain control",
+              "values": [
+                false,
+                false,
+                true
+              ]
+            },
+            {
+              "label": "Audit log compliance",
+              "values": [
+                false,
+                false,
+                true
+              ]
+            },
+            {
+              "label": "Data deletion API",
+              "values": [
+                false,
+                false,
+                true
+              ]
+            },
+            {
+              "label": "Onboarding & implementation",
+              "values": [
+                false,
+                false,
+                true
+              ]
+            },
+            {
+              "label": "Dedicated account support",
+              "values": [
+                false,
+                false,
+                true
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "question": "How are plans priced?",
+          "answer": "Every plan is billed per user, per workspace. Starter is ₹500 monthly, or ₹425/user/month on yearly (15% off). Premium is ₹1,000 monthly, or ₹850/user/month on yearly (15% off). Enterprise starts from ₹12L per year."
+        },
+        {
+          "question": "Which plans include billing?",
+          "answer": "All of them. Starter, Premium, and Enterprise are billed per user, per workspace — not one bill for the whole team."
+        },
+        {
+          "question": "How many people and booking pages do I get?",
+          "answer": "Starter is 1–5 people and 1 booking page with an Indlio watermark. Premium is 2–50 people and unlimited booking pages, with no watermark. Enterprise is 50+ people and unlimited booking pages, with no watermark."
+        },
+        {
+          "question": "What's on Premium that Starter does not have?",
+          "answer": "Multi-currency, multi-timezone, custom forms, the customer portal, unlimited integrations, and standard reports start on Premium. Starter includes 10 integrations, basic reports, and an Indlio watermark on the booking page. Every plan is billed per user, per workspace."
+        },
+        {
+          "question": "What's the difference between Premium and Enterprise?",
+          "answer": "Premium is for one studio that shares a calendar, up to 50 people, unlimited booking pages, and the standard reports. Enterprise adds custom reports, workflows, and multi-location access, plus SSO and SAML, Salesforce and Dynamics, domain control, audit logs, a data deletion API, onboarding and implementation, and dedicated account support."
+        },
+        {
+          "question": "Do I need a credit card to join?",
+          "answer": "No. The waitlist is an email. We'll contact you when Indlio Bookings is ready for the first SMEs."
+        },
+        {
+          "question": "Can I switch plans later?",
+          "answer": "Yes. Start on Starter and move to Premium or Enterprise when the workspace grows."
+        }
+      ]
+    },
+    "closing": {
+      "title": "From the first link to the first booking.",
+      "subtitle": "Join the list. We’ll write when bookings is ready for the first SMEs.",
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  },
+  "about": {
+    "seo": {
+      "title": "About us — Indlio",
+      "description": "Indlio is building India-first booking software that turns WhatsApp conversations into confirmed appointments — without asking SMBs to change how they already work."
+    },
+    "eyebrow": "About Indlio",
+    "title": "Indian SMBs don’t need another calendar link.",
+    "subtitle": "We’re building booking software for rooms that already live in WhatsApp — not another tool for calendar meetings.",
+    "problem": {
+      "id": "about",
+      "eyebrow": "The gap",
+      "title": "Booking still lives in WhatsApp, calls, and sheets.",
+      "paragraphs": [
+        "Small and growing businesses in India take appointments, consults, demos, and walk-ins over WhatsApp and the phone. Calendly and Zoho Bookings are built for calendar meetings — not for how these rooms actually talk to customers.",
+        "Customers want to chat before they commit. Owners need services, staff, payments, reschedules, cancellations, walk-ins, and follow-ups in one place. The gap is a pile of threads, missed slots, and no view of the day."
+      ],
+      "quoteLabel": "Core problem",
+      "quote": "Indian SMBs don’t need another calendar link. They need a simple way to turn customer conversations into confirmed appointments."
+    },
+    "workflow": {
+      "eyebrow": "The shift",
+      "title": "From chasing the booking to confirming it.",
+      "subtitle": "The product should feel as natural as sending a WhatsApp — and give the owner the control of a real booking system.",
+      "current": {
+        "label": "How it works today",
+        "hint": "Fragmented, and it sits on the owner.",
+        "steps": [
+          "Customer inquiry",
+          "WhatsApp thread",
+          "Back-and-forth messages",
+          "Check availability",
+          "Confirm by hand",
+          "Collect an advance",
+          "Send a reminder",
+          "Appointment"
+        ]
+      },
+      "desired": {
+        "label": "How it should feel",
+        "hint": "A conversation that becomes a confirmed slot.",
+        "steps": [
+          "Customer inquiry",
+          "Choose a service",
+          "Pick an open slot",
+          "Pay and confirm",
+          "WhatsApp confirmation",
+          "Automated reminder",
+          "Appointment"
+        ]
+      }
+    },
+    "who": {
+      "eyebrow": "Who this is for",
+      "title": "Anyone who books people in, every week.",
+      "subtitle": "The rooms that still run on DMs, calls, and a notebook by the till.",
+      "items": [
+        {
+          "label": "Clinics and healthcare",
+          "href": "/industries/wellness"
+        },
+        {
+          "label": "Salons and beauty",
+          "href": "/industries/wellness"
+        },
+        {
+          "label": "Consultants and freelancers",
+          "href": "/industries/professional-services"
+        },
+        {
+          "label": "Tuition and coaching",
+          "href": "/industries/education"
+        },
+        {
+          "label": "Real-estate agents",
+          "href": "/industries/real-estate"
+        },
+        {
+          "label": "Interior designers",
+          "href": "/industries/creative-studios"
+        },
+        {
+          "label": "Fitness trainers",
+          "href": "/industries/wellness"
+        },
+        {
+          "label": "Repair and home services",
+          "href": "/industries/home-services"
+        },
+        {
+          "label": "Photographers and wedding vendors",
+          "href": "/industries/creative-studios"
+        },
+        {
+          "label": "Agencies and B2B services",
+          "href": "/industries/professional-services"
+        }
+      ]
+    },
+    "opportunity": {
+      "eyebrow": "What we are building",
+      "title": "An India-first booking experience.",
+      "body": "Connect the conversation, the slot, the payment, and the day — without asking small businesses to change how they already work."
+    },
+    "founders": {
+      "eyebrow": "Leadership",
+      "title": "Our founder.",
+      "subtitle": "Indlio started from a simple observation: Indian SMBs already take bookings over WhatsApp, calls, and a notebook. They don’t need another calendar link. They need a way to turn those conversations into confirmed appointments.",
+      "people": [
+        {
+          "name": "Valliyappan",
+          "role": "Founder",
+          "linkedin": "https://www.linkedin.com/in/valliyappan05/",
+          "body": "Valliyappan is building Indlio Bookings for the rooms that still run the week in chat — clinics, salons, tutors, agents, and studios. The product should feel as natural as sending a WhatsApp, and give the owner the control of a real booking system: services, staff, payments, reschedules, walk-ins, and reminders in one place. He stays close to that work so Indlio ships for how these businesses already operate, not how a calendar tool wishes they would.",
+          "src": "/founders/valliyappan.jpeg",
+          "alt": "Valliyappan, founder of Indlio"
+        }
+      ]
+    },
+    "closing": {
+      "title": "We’re building Indlio Bookings.",
+      "subtitle": "Join the list if this is the booking problem you live with.",
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  },
+  "ui": {
+    "primaryNav": "Primary",
+    "mobileNav": "Mobile",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "legal": "Legal",
+    "billingPeriod": "Billing period",
+    "featuresEyebrow": "Features",
+    "navOverview": "overview",
+    "language": "Language",
+    "copyrightLabel": "Copyright"
+  },
+  "cookies": {
+    "bannerTitle": "Cookies on this site",
+    "bannerBody": "We use necessary cookies to remember your language and your cookie choice. Optional analytics and marketing cookies stay off unless you turn them on.",
+    "acceptAll": "Accept all",
+    "rejectOptional": "Necessary only",
+    "customize": "Cookie Settings",
+    "save": "Save choices",
+    "close": "Close",
+    "settingsTitle": "Cookie Settings",
+    "settingsBody": "Necessary cookies always run. Turn optional cookies on only if you want them.",
+    "alwaysOn": "Always on",
+    "necessary": {
+      "label": "Necessary",
+      "hint": "Language and the record of this choice. The site needs these to work."
+    },
+    "analytics": {
+      "label": "Analytics",
+      "hint": "Help us see how the site is used. Nothing loads until you switch this on."
+    },
+    "marketing": {
+      "label": "Marketing",
+      "hint": "Used only if we run a campaign pixel. Nothing loads until you switch this on."
+    },
+    "policyLink": "Read the Cookie Policy"
+  },
+  "careers": {
+    "seo": {
+      "title": "Careers — Indlio",
+      "description": "Join Indlio. We're hiring people who want to ship booking software SMEs can use on day one."
+    },
+    "eyebrow": "Careers",
+    "title": "Build tools people actually use.",
+    "subtitle": "A small team shipping booking software for studios and practices. High trust, clear work, and no six-week implementations — including how we hire.",
+    "principles": {
+      "eyebrow": "How we hire",
+      "title": "The same standards we hold for the product.",
+      "subtitle": "We look for craft, judgment, and people who treat customer pain as a design problem.",
+      "items": [
+        {
+          "title": "Ship, then sharpen",
+          "body": "We prefer a live path over a perfect deck. You will own work from sketch to production."
+        },
+        {
+          "title": "Write it down",
+          "body": "Clear commits, clear copy, clear decisions. If it is not written, it is not finished."
+        },
+        {
+          "title": "Respect the room",
+          "body": "Our users are mid-session. Design and engineering have to stay simple enough to use between clients."
+        }
+      ]
+    },
+    "roles": {
+      "eyebrow": "Open roles",
+      "title": "We're hiring.",
+      "subtitle": "Remote-friendly. If the work sounds like yours, join the list and tell us what you want to build.",
+      "empty": "No open roles right now. Join the list and we’ll write when a seat opens.",
+      "items": [
+        {
+          "title": "Founding engineer",
+          "location": "Remote · India",
+          "type": "Full-time",
+          "body": "Ship Indlio Bookings with the founder — booking pages, calendars, and reminders that stay simple under load.",
+          "cta": {
+            "label": "Apply",
+            "href": "https://forms.gle/Sj2kjczAu8i3xAdD6"
+          }
+        },
+        {
+          "title": "Product designer",
+          "location": "Remote · India",
+          "type": "Full-time",
+          "body": "Design the path from first link to first booking. Craft over chrome. Phone and laptop, same flow.",
+          "cta": {
+            "label": "Apply",
+            "href": "https://forms.gle/Sj2kjczAu8i3xAdD6"
+          }
+        },
+        {
+          "title": "DevOps",
+          "location": "Remote · India",
+          "type": "Full-time",
+          "body": "Keep Bookings live and boring to operate — deploys, environments, and the path from commit to the first booking.",
+          "cta": {
+            "label": "Apply",
+            "href": "https://forms.gle/Sj2kjczAu8i3xAdD6"
+          }
+        }
+      ]
+    },
+    "closing": {
+      "title": "Don't see the role?",
+      "subtitle": "Write anyway. We hire for craft and judgment, not a perfect title match.",
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blog — Indlio",
+      "description": "Notes from Indlio on booking software, SMEs, and going live without a six-week implementation."
+    },
+    "eyebrow": "Blog",
+    "title": "Notes on going live.",
+    "subtitle": "Short writing on booking software, no-shows, and the work that happens between sessions.",
+    "empty": "New posts will land here. Join the waitlist and we’ll write when there is something worth sending.",
+    "backLabel": "All posts",
+    "posts": [
+      {
+        "slug": "why-booking-software-fails-smes",
+        "title": "Why booking software fails SMEs",
+        "excerpt": "Independents outgrow spreadsheets. Teams outgrow chat. The jump to enterprise software is a training project they never asked for.",
+        "date": "2026-09-01",
+        "body": [
+          "Most booking tools are built for enterprises or for no one in particular. The first group gets a six-week implementation. The second group gets a form that still lives in someone’s DMs.",
+          "Studios, tutors, and practices do not fail because they lack features. They fail because the product asks for a training session before the first booking.",
+          "Indlio Bookings is the other path: share a link, take classes, consults, and walk-ins, and keep the calendar in one place. Live today, not next month."
+        ]
+      },
+      {
+        "slug": "live-today-not-next-month",
+        "title": "Live today, not next month",
+        "excerpt": "If a client can book while they are still in the room, you keep them. That is the whole product.",
+        "date": "2026-08-18",
+        "body": [
+          "The useful test for booking software is not the feature list. It is whether someone can send a link before the client puts their shoes on.",
+          "Walk-ins, consults, and classes belong on one calendar. Everything else is noise until that path is obvious on a phone.",
+          "We are building Indlio Bookings for that moment — a public page, a shared calendar, and a reminder that feels like a person wrote it."
+        ]
+      },
+      {
+        "slug": "reminders-that-feel-human",
+        "title": "Reminders that feel human",
+        "excerpt": "One missed class should not turn into a no-show habit. The follow-up has to sound like the studio, not a ticket system.",
+        "date": "2026-08-04",
+        "body": [
+          "No-shows are rarely a calendar problem. They are a habit problem. A reminder that reads like a support ticket teaches people to ignore the next one.",
+          "The copy has to be short, specific, and easy to act on. Same flow on a phone as on a laptop. Most bookings happen between sessions.",
+          "That is the standard we are designing for: reminders that cut no-shows without making the front desk sound like a robot."
+        ]
+      }
+    ],
+    "closing": {
+      "title": "Want the next note?",
+      "subtitle": "Join the list. We’ll write when bookings is ready — and when there is something worth reading.",
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  },
+  "metrics": {
+    "id": "metrics",
+    "eyebrow": "How it works in the room",
+    "title": "Four things a booking has to do.",
+    "subtitle": "Meet the chat, hold the slot, take the advance, and keep the day in one place.",
+    "items": [
+      {
+        "label": "WhatsApp-first",
+        "body": "Meet customers where they already chat."
+      },
+      {
+        "label": "Confirmed slots",
+        "body": "A conversation becomes a booked time."
+      },
+      {
+        "label": "Pay in the path",
+        "body": "Advances sit next to the appointment."
+      },
+      {
+        "label": "One diary",
+        "body": "Staff, walk-ins, and follow-ups together."
+      }
+    ]
+  },
+  "impact": {
+    "id": "impact",
+    "eyebrow": "Impact",
+    "title": "The first booking happens in the room.",
+    "subtitle": "If a client can book before they put their shoes on, you keep them.",
+    "items": [
+      {
+        "title": "Keep the hour",
+        "body": "Clients pick the time themselves. You stop negotiating Tuesday afternoon in a thread and get back to the work."
+      },
+      {
+        "title": "Fill the timetable",
+        "body": "Classes, consults, and walk-ins sit on one diary. Capacity is visible before you say yes."
+      },
+      {
+        "title": "Sound like the studio",
+        "body": "Reminders stay short and specific. One missed session should not become a habit."
+      }
+    ]
+  },
+  "problem": {
+    "id": "problem",
+    "eyebrow": "The gap",
+    "title": "Booking still lives in WhatsApp, calls, and sheets.",
+    "paragraphs": [
+      "Small and growing businesses in India take appointments, consults, demos, and walk-ins over WhatsApp and the phone. Calendar tools are built for meetings — not for how these rooms actually talk to customers.",
+      "Customers want to chat before they commit. Owners need services, staff, payments, reschedules, walk-ins, and follow-ups in one place."
+    ],
+    "quoteLabel": "Core problem",
+    "quote": "Indian SMBs don’t need another calendar link. They need a simple way to turn customer conversations into confirmed appointments."
+  },
+  "workflow": {
+    "id": "workflow",
+    "eyebrow": "The shift",
+    "title": "From chasing the booking to confirming it.",
+    "subtitle": "The product should feel as natural as sending a WhatsApp — and give the owner the control of a real booking system.",
+    "current": {
+      "label": "How it works today",
+      "hint": "Fragmented, and it sits on the owner.",
+      "steps": [
+        "Customer inquiry",
+        "WhatsApp thread",
+        "Back-and-forth messages",
+        "Check availability",
+        "Confirm by hand",
+        "Collect an advance",
+        "Send a reminder",
+        "Appointment"
+      ]
+    },
+    "desired": {
+      "label": "How it should feel",
+      "hint": "A conversation that becomes a confirmed slot.",
+      "steps": [
+        "Customer inquiry",
+        "Choose a service",
+        "Pick an open slot",
+        "Pay and confirm",
+        "WhatsApp confirmation",
+        "Automated reminder",
+        "Appointment"
+      ]
+    }
+  },
+  "who": {
+    "id": "who",
+    "eyebrow": "Who this is for",
+    "title": "Anyone who books people in, every week.",
+    "subtitle": "The rooms that still run on DMs, calls, and a notebook by the till.",
+    "items": [
+      {
+        "label": "Clinics and healthcare",
+        "href": "/industries/wellness"
+      },
+      {
+        "label": "Salons and beauty",
+        "href": "/industries/wellness"
+      },
+      {
+        "label": "Consultants and freelancers",
+        "href": "/industries/professional-services"
+      },
+      {
+        "label": "Tuition and coaching",
+        "href": "/industries/education"
+      },
+      {
+        "label": "Real-estate agents",
+        "href": "/industries/real-estate"
+      },
+      {
+        "label": "Interior designers",
+        "href": "/industries/creative-studios"
+      },
+      {
+        "label": "Fitness trainers",
+        "href": "/industries/wellness"
+      },
+      {
+        "label": "Repair and home services",
+        "href": "/industries/home-services"
+      },
+      {
+        "label": "Photographers and wedding vendors",
+        "href": "/industries/creative-studios"
+      },
+      {
+        "label": "Agencies and B2B services",
+        "href": "/industries/professional-services"
+      }
+    ]
+  }
+}

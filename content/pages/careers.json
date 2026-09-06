@@ -1,0 +1,62 @@
+{
+  "seo": {
+    "title": "Careers — Indlio",
+    "description": "Join Indlio. We're hiring people who want to ship booking software SMEs can use on day one."
+  },
+  "eyebrow": "Careers",
+  "title": "Build tools people actually use.",
+  "subtitle": "A small team shipping booking software for studios and practices. High trust, clear work, and no six-week implementations — including how we hire.",
+  "principles": {
+    "eyebrow": "How we hire",
+    "title": "The same standards we hold for the product.",
+    "subtitle": "We look for craft, judgment, and people who treat customer pain as a design problem.",
+    "items": [
+      {
+        "title": "Ship, then sharpen",
+        "body": "We prefer a live path over a perfect deck. You will own work from sketch to production."
+      },
+      {
+        "title": "Write it down",
+        "body": "Clear commits, clear copy, clear decisions. If it is not written, it is not finished."
+      },
+      {
+        "title": "Respect the room",
+        "body": "Our users are mid-session. Design and engineering have to stay simple enough to use between clients."
+      }
+    ]
+  },
+  "roles": {
+    "eyebrow": "Open roles",
+    "title": "We're hiring.",
+    "subtitle": "Remote-friendly. If the work sounds like yours, join the list and tell us what you want to build.",
+    "empty": "No open roles right now. Join the list and we’ll write when a seat opens.",
+    "items": [
+      {
+        "title": "Founding engineer",
+        "location": "Remote · India",
+        "type": "Full-time",
+        "body": "Ship Indlio Bookings with the founder — booking pages, calendars, and reminders that stay simple under load.",
+        "cta": { "label": "Apply", "href": "https://forms.gle/Sj2kjczAu8i3xAdD6" }
+      },
+      {
+        "title": "Product designer",
+        "location": "Remote · India",
+        "type": "Full-time",
+        "body": "Design the path from first link to first booking. Craft over chrome. Phone and laptop, same flow.",
+        "cta": { "label": "Apply", "href": "https://forms.gle/Sj2kjczAu8i3xAdD6" }
+      },
+      {
+        "title": "DevOps",
+        "location": "Remote · India",
+        "type": "Full-time",
+        "body": "Keep Bookings live and boring to operate — deploys, environments, and the path from commit to the first booking.",
+        "cta": { "label": "Apply", "href": "https://forms.gle/Sj2kjczAu8i3xAdD6" }
+      }
+    ]
+  },
+  "closing": {
+    "title": "Don't see the role?",
+    "subtitle": "Write anyway. We hire for craft and judgment, not a perfect title match.",
+    "cta": { "label": "Join waitlist", "href": "https://forms.gle/cFgW1EKVmw9cEaoz8" }
+  }
+}

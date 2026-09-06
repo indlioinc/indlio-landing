@@ -1,0 +1,12 @@
+{
+  "id": "waitlist",
+  "eyebrow": "Early access",
+  "title": "We’re building Indlio Bookings.",
+  "subtitle": "Join the list. We’ll write when bookings is ready for the first SMEs.",
+  "form": {
+    "placeholder": "Work email",
+    "buttonLabel": "Notify me",
+    "successMessage": "You’re on the list. We’ll write when Indlio Bookings is ready.",
+    "errorFallback": "Something went wrong. Try again."
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "privacy": {
+    "seo": {
+      "title": "Privacy Policy — Indlio",
+      "description": "How Indlio collects, uses, and stores information on this website and waitlist."
+    },
+    "eyebrow": "Legal",
+    "title": "Privacy Policy",
+    "updated": "Last updated 6 September 2026",
+    "intro": "This policy explains what Indlio collects on this website, why we collect it, and how you can ask about it.",
+    "sections": [
+      {
+        "title": "Who we are",
+        "paragraphs": [
+          "Indlio is a company building India-first booking software. This website is a public landing page and waitlist — the product is not generally available yet.",
+          "If you have a privacy question, use the waitlist form on this site or write through the contact path we publish there."
+        ]
+      },
+      {
+        "title": "What we collect",
+        "paragraphs": [
+          "If you join the waitlist, Google Forms collects the details you submit — typically a name, email, and anything else the form asks. That form is hosted by Google, not on our servers.",
+          "If you apply for a role, a separate Google Form collects the details you send for hiring.",
+          "This site also stores a small set of cookies: your language preference, and your cookie choices. Those stay in your browser.",
+          "We do not ask for payment details on this website."
+        ]
+      },
+      {
+        "title": "How we use it",
+        "paragraphs": [
+          "Waitlist details are used to tell you when Indlio Bookings is ready, and to understand who is interested.",
+          "Career form details are used only to review applications.",
+          "Language and cookie settings are used to remember how you want the site to work.",
+          "We do not sell this information."
+        ]
+      },
+      {
+        "title": "Cookies",
+        "paragraphs": [
+          "Necessary cookies keep the site working — language, and the record of your cookie choice. Optional analytics and marketing cookies stay off unless you turn them on in Cookie Settings.",
+          "You can change that choice at any time from Cookie Settings in the footer. The Cookie Policy lists what we store today."
+        ]
+      },
+      {
+        "title": "Who else sees it",
+        "paragraphs": [
+          "Google processes waitlist and career form submissions as the form host. Their terms and privacy policy apply to that service.",
+          "We may share information if the law requires it, or with people who help us operate the site under a duty to keep it confidential."
+        ]
+      },
+      {
+        "title": "How long we keep it",
+        "paragraphs": [
+          "Waitlist and application details are kept while we are building and hiring, then deleted when they are no longer needed.",
+          "Cookie records last up to one year, or until you clear them in your browser or Cookie Settings."
+        ]
+      },
+      {
+        "title": "Your rights",
+        "paragraphs": [
+          "You can ask what we hold about you, ask us to correct it, or ask us to delete it, subject to the law in India — including the Digital Personal Data Protection Act, 2023 where it applies.",
+          "You can also refuse optional cookies without losing access to this website."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "seo": {
+      "title": "Legal — Indlio",
+      "description": "Terms for using the Indlio website and waitlist."
+    },
+    "eyebrow": "Legal",
+    "title": "Legal terms",
+    "updated": "Last updated 6 September 2026",
+    "intro": "These terms cover this website and the waitlist. They are not a contract for Indlio Bookings as a live product.",
+    "sections": [
+      {
+        "title": "Using this site",
+        "paragraphs": [
+          "You may browse this site, join the waitlist, and apply for roles. Do not misuse the site, attempt to break it, or use it to send unlawful content.",
+          "We may change or take the site down while we are still building."
+        ]
+      },
+      {
+        "title": "The waitlist",
+        "paragraphs": [
+          "Joining the waitlist does not guarantee access, a launch date, or a price. It is a request to hear from us when bookings is ready.",
+          "We may close, limit, or reset the list."
+        ]
+      },
+      {
+        "title": "No product agreement yet",
+        "paragraphs": [
+          "Copy on this site describes what we are building. It is not a warranty, service-level promise, or offer to sell software today.",
+          "When the product is available, it will have its own terms."
+        ]
+      },
+      {
+        "title": "Intellectual property",
+        "paragraphs": [
+          "The Indlio name, marks, and site content belong to Indlio. You may not copy them for a commercial product without permission."
+        ]
+      },
+      {
+        "title": "Liability",
+        "paragraphs": [
+          "This site is provided as-is. To the extent Indian law allows, Indlio is not liable for loss that comes from using or being unable to use this website or the waitlist.",
+          "Nothing here limits liability that cannot be limited by law."
+        ]
+      },
+      {
+        "title": "Governing law",
+        "paragraphs": [
+          "These terms are governed by the laws of India. Courts in India have jurisdiction over disputes that arise from this website."
+        ]
+      }
+    ]
+  },
+  "cookiePolicy": {
+    "seo": {
+      "title": "Cookie Policy — Indlio",
+      "description": "Cookies Indlio uses on this website, and how to change your choices."
+    },
+    "eyebrow": "Legal",
+    "title": "Cookie Policy",
+    "updated": "Last updated 6 September 2026",
+    "intro": "This page lists the cookies this website uses and how you control them.",
+    "sections": [
+      {
+        "title": "What a cookie is",
+        "paragraphs": [
+          "A cookie is a small file stored in your browser. We use cookies so the site can remember your language and your cookie choice."
+        ]
+      },
+      {
+        "title": "Cookies we set",
+        "paragraphs": [
+          "indlio-locale — necessary. Remembers the language you picked. Stored for one year.",
+          "indlio-cookie-consent — necessary. Remembers whether you accepted, rejected, or customised optional cookies. Stored for one year."
+        ]
+      },
+      {
+        "title": "Optional cookies",
+        "paragraphs": [
+          "Analytics cookies would help us understand how the site is used. Marketing cookies would help us measure campaigns. We do not load those unless you turn them on in Cookie Settings.",
+          "If we add a specific analytics or ads tool later, we will name it here before it runs."
+        ]
+      },
+      {
+        "title": "How to change your choice",
+        "paragraphs": [
+          "Open Cookie Settings in the footer. You can accept all optional cookies, keep only necessary cookies, or save a custom mix.",
+          "You can also clear cookies in your browser. The banner will ask again on the next visit if the consent cookie is gone."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,692 @@
+{
+  "seo": {
+    "title": "Indlio — छोटे व्यवसायों के लिए बुकिंग सॉफ़्टवेयर",
+    "description": "Indlio Bookings छोटे व्यवसायों के लिए अपॉइंटमेंट सॉफ़्टवेयर है। एक लिंक साझा करें और क्लास, कंसल्ट या वॉक-इन लें। वेटलिस्ट में शामिल हों।",
+    "ogImage": "/logos/indlio-full-logo-color-black.png",
+    "ogTitle": "Indlio — छोटे व्यवसायों के लिए बुकिंग सॉफ़्टवेयर",
+    "twitterCard": "summary_large_image"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "उत्पाद",
+        "href": "/product-tour",
+        "items": [
+          {
+            "label": "प्रॉडक्ट टूर",
+            "href": "/product-tour"
+          },
+          {
+            "label": "नया क्या है",
+            "href": "/whats-new"
+          },
+          {
+            "label": "डेवलपर टूल्स",
+            "href": "/developers"
+          }
+        ]
+      },
+      {
+        "label": "समाधान",
+        "href": "/solutions/individuals",
+        "items": [
+          {
+            "label": "व्यक्तियों के लिए",
+            "href": "/solutions/individuals"
+          },
+          {
+            "label": "टीमों के लिए",
+            "href": "/solutions/teams"
+          },
+          {
+            "label": "स्टूडियो के लिए",
+            "href": "/solutions/studios"
+          }
+        ]
+      },
+      {
+        "label": "मूल्य निर्धारण",
+        "href": "/pricing"
+      }
+    ],
+    "badge": {
+      "label": "जल्द आ रहा है"
+    }
+  },
+  "footer": {
+    "columns": [
+      {
+        "groups": [
+          {
+            "title": "समाधान",
+            "links": [
+              {
+                "label": "व्यक्तियों के लिए",
+                "href": "/solutions/individuals"
+              },
+              {
+                "label": "टीमों के लिए",
+                "href": "/solutions/teams"
+              },
+              {
+                "label": "स्टूडियो के लिए",
+                "href": "/solutions/studios"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "groups": [
+          {
+            "title": "उद्योग",
+            "links": [
+              {
+                "label": "प्रोफेशनल सर्विसेज़",
+                "href": "/industries/professional-services"
+              },
+              {
+                "label": "शिक्षा",
+                "href": "/industries/education"
+              },
+              {
+                "label": "वेलनेस",
+                "href": "/industries/wellness"
+              },
+              {
+                "label": "क्रिएटिव स्टूडियो",
+                "href": "/industries/creative-studios"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "groups": [
+          {
+            "title": "संसाधन",
+            "links": [
+              {
+                "label": "वेटलिस्ट में शामिल हों",
+                "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+              },
+              {
+                "label": "प्रॉडक्ट टूर",
+                "href": "/product-tour"
+              },
+              {
+                "label": "मूल्य और प्लान",
+                "href": "/pricing"
+              },
+              {
+                "label": "नया क्या है",
+                "href": "/whats-new"
+              },
+              {
+                "label": "कम्युनिटी",
+                "href": "/community"
+              },
+              {
+                "label": "डेवलपर टूल्स",
+                "href": "/developers"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "groups": [
+          {
+            "title": "कंपनी",
+            "links": [
+              {
+                "label": "हमारे बारे में",
+                "href": "/about"
+              },
+              {
+                "label": "करियर",
+                "href": "/careers",
+                "badge": "हम भर्ती कर रहे हैं!"
+              },
+              {
+                "label": "पार्टनर बनें",
+                "href": "/partners"
+              },
+              {
+                "label": "ब्लॉग",
+                "href": "/blog"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "storesTitle": "डाउनलोड",
+    "stores": [
+      {
+        "label": "App Store",
+        "href": "",
+        "icon": "apple"
+      },
+      {
+        "label": "Google Play",
+        "href": "",
+        "icon": "play"
+      },
+      {
+        "label": "Microsoft Edge",
+        "href": "",
+        "icon": "edge"
+      },
+      {
+        "label": "Safari",
+        "href": "",
+        "icon": "safari"
+      },
+      {
+        "label": "Google Chrome",
+        "href": "",
+        "icon": "chrome"
+      },
+      {
+        "label": "Firefox",
+        "href": "",
+        "icon": "firefox"
+      },
+      {
+        "label": "Outlook",
+        "href": "",
+        "icon": "outlook"
+      }
+    ],
+    "socialsTitle": "सोशल पर जुड़ें",
+    "socials": [
+      {
+        "label": "X",
+        "href": "",
+        "icon": "x"
+      },
+      {
+        "label": "Instagram",
+        "href": "",
+        "icon": "instagram"
+      },
+      {
+        "label": "Facebook",
+        "href": "",
+        "icon": "facebook"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "",
+        "icon": "linkedin"
+      }
+    ],
+    "legal": [
+      {
+        "label": "गोपनीयता नीति",
+        "href": "/privacy"
+      },
+      {
+        "label": "कानूनी",
+        "href": "/legal"
+      },
+      {
+        "label": "Cookies",
+        "href": "/cookies"
+      },
+      {
+        "label": "कुकी सेटिंग्स",
+        "href": "",
+        "id": "cookie-settings"
+      }
+    ],
+    "copyright": "Indlio"
+  },
+  "hero": {
+    "id": "hero",
+    "eyebrow": "सबके लिए बनाएँ",
+    "title": "बुकिंग सॉफ़्टवेयर जो आपको आज लाइव करता है, अगले महीने नहीं।",
+    "titleAccent": "",
+    "subtitle": "एक लिंक साझा करें। क्लास, कंसल्ट और वॉक-इन लें। हम Indlio Bookings बना रहे हैं — पहले आने के लिए सूची में शामिल हों।",
+    "form": {
+      "placeholder": "आपका वर्क ईमेल",
+      "buttonLabel": "वेटलिस्ट में शामिल हों",
+      "successMessage": "आप सूची में हैं। Indlio Bookings तैयार होने पर हम लिखेंगे।",
+      "errorFallback": "कुछ गलत हो गया। फिर कोशिश करें।",
+      "disclaimer": "कोई स्पैम नहीं। बस बुकिंग खुलने पर एक सोच-समझकर लिखा नोट।"
+    }
+  },
+  "trusted": {
+    "id": "trusted",
+    "eyebrow": "विश्वसनीय टीमें"
+  },
+  "integrations": {
+    "id": "integrations",
+    "title": "Indlio को उन टूल्स से जोड़ें जो आप पहले से इस्तेमाल करते हैं",
+    "subtitle": "एक नियोजित इंटीग्रेशन परत, ताकि बुकिंग उन कैलेंडर, पेमेंट, मैसेजिंग और वीडियो टूल्स के पास रह सके जिन्हें छोटे व्यवसाय पहले से चलाते हैं।",
+    "suites": [
+      {
+        "name": "Google सूट",
+        "logo": "/brand_logo/google_2026.webp",
+        "body": "Google Calendar, Meet, Gmail और Drive नियोजित हैं, ताकि बुकिंग और फॉलो-अप आपकी टीम के Google टूल्स के साथ रह सकें।"
+      },
+      {
+        "name": "Microsoft सूट",
+        "logo": "/brand_logo/microsoft_2026.png",
+        "body": "Outlook, Teams और Microsoft 365 नियोजित हैं, ताकि शेड्यूलिंग और बातचीत आपके Microsoft टूल्स में ही रहें।"
+      },
+      {
+        "name": "Zoho सूट",
+        "logo": "/brand_logo/zoho_2026.jpg",
+        "body": "Zoho Calendar, Cliq और Mail नियोजित हैं, ताकि बुकिंग और फॉलो-अप आपकी टीम के Zoho टूल्स के साथ रह सकें।"
+      }
+    ]
+  },
+  "waitlist": {
+    "id": "waitlist",
+    "eyebrow": "अर्ली एक्सेस",
+    "title": "हम Indlio Bookings बना रहे हैं।",
+    "subtitle": "सूची में शामिल हों। पहले छोटे व्यवसायों के लिए बुकिंग तैयार होने पर हम लिखेंगे।",
+    "form": {
+      "placeholder": "वर्क ईमेल",
+      "buttonLabel": "मुझे सूचित करें",
+      "successMessage": "आप सूची में हैं। Indlio Bookings तैयार होने पर हम लिखेंगे।",
+      "errorFallback": "कुछ गलत हो गया। फिर कोशिश करें।"
+    }
+  },
+  "pricing": {
+    "seo": {
+      "title": "मूल्य निर्धारण — Indlio Bookings",
+      "description": "Indlio Bookings हर प्लान पर प्रति उपयोगकर्ता, प्रति वर्कस्पेस बिल होता है. Starter 1–5 लोग, Premium 2–50, Enterprise 50+. मल्टी-करेंसी, टाइमज़ोन, इंटीग्रेशन और कस्टमर पोर्टल Premium से।"
+    },
+    "eyebrow": "मूल्य निर्धारण",
+    "title": "साफ़ कीमतें. टीम बढ़े तो स्केल करें।",
+    "subtitle": "हर प्लान प्रति उपयोगकर्ता, प्रति वर्कस्पेस बिल होता है. Starter 1–5 लोग, Premium 2–50, Enterprise 50+.",
+    "billing": {
+      "monthlyLabel": "मासिक",
+      "yearlyLabel": "वार्षिक",
+      "yearlyHint": "15% छूट",
+      "note": "हर प्लान पर बिल प्रति उपयोगकर्ता, प्रति वर्कस्पेस।"
+    },
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "₹500",
+        "yearlyPrice": "₹425",
+        "period": "प्रति उपयोगकर्ता / वर्कस्पेस / महीना",
+        "yearlyPeriod": "प्रति उपयोगकर्ता / वर्कस्पेस / महीना",
+        "discountLabel": "15% छूट",
+        "body": "स्वतंत्र पेशेवरों और छोटी दुकानों के लिए. एक वर्कस्पेस पर 1–5 लोग।",
+        "includesLabel": "शामिल",
+        "features": [
+          "1–5 लोग",
+          "1 बुकिंग पेज",
+          "बुकिंग पेज पर Indlio वॉटरमार्क",
+          "प्रति-उपयोगकर्ता बिलिंग",
+          "10 इंटीग्रेशन",
+          "बेसिक रिपोर्ट",
+          "रिमाइंडर जो नो-शो घटाते हैं"
+        ],
+        "cta": {
+          "label": "वेटलिस्ट में शामिल हों",
+          "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+        },
+        "ctaVariant": "primary"
+      },
+      {
+        "name": "Premium",
+        "price": "₹1,000",
+        "yearlyPrice": "₹850",
+        "period": "प्रति उपयोगकर्ता / वर्कस्पेस / महीना",
+        "yearlyPeriod": "प्रति उपयोगकर्ता / वर्कस्पेस / महीना",
+        "discountLabel": "15% छूट",
+        "body": "जो स्टूडियो एक कैलेंडर साझा करते हैं. एक वर्कस्पेस पर 2–50 लोग।",
+        "featured": true,
+        "badge": "लोकप्रिय",
+        "includesLabel": "Starter की हर चीज़, और",
+        "features": [
+          "2–50 लोग",
+          "अनलिमिटेड बुकिंग पेज",
+          "कस्टम फ़ॉर्म",
+          "मल्टी-करेंसी",
+          "मल्टी-टाइमज़ोन",
+          "कस्टमर पोर्टल",
+          "अनलिमिटेड इंटीग्रेशन",
+          "स्टाफ़ और रूम शेड्यूल",
+          "एडमिन अनुमतियाँ",
+          "स्टैंडर्ड रिपोर्ट"
+        ],
+        "cta": {
+          "label": "वेटलिस्ट में शामिल हों",
+          "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+        },
+        "ctaVariant": "accent"
+      },
+      {
+        "name": "Enterprise",
+        "price": "₹12L",
+        "yearlyPrice": "₹12L",
+        "period": "प्रति वर्कस्पेस / साल, से",
+        "yearlyPeriod": "प्रति वर्कस्पेस / साल, से",
+        "body": "एक्सेस कंट्रोल और रोलआउट मदद चाहिए तो. 50+ लोग।",
+        "badge": "50+",
+        "includesLabel": "Premium की हर चीज़, और",
+        "features": [
+          "50+ लोग",
+          "अनलिमिटेड बुकिंग पेज",
+          "अनलिमिटेड इंटीग्रेशन",
+          "मल्टी-लोकेशन कैलेंडर",
+          "एक्सेस नियंत्रण",
+          "कस्टम रिपोर्ट",
+          "वर्कफ़्लो",
+          "Salesforce लुकअप के साथ रूट",
+          "Microsoft Dynamics से कनेक्ट",
+          "SSO और SAML सक्षम करें",
+          "डोमेन नियंत्रण",
+          "ऑडिट लॉग अनुपालन",
+          "डेटा डिलीशन API",
+          "ऑनबोर्डिंग और इम्प्लीमेंटेशन",
+          "समर्पित अकाउंट सपोर्ट"
+        ],
+        "cta": {
+          "label": "सेल्स से बात करें",
+          "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+        },
+        "ctaVariant": "outline",
+        "yearlyOnly": true
+      }
+    ],
+    "included": {
+      "title": "हर प्लान में शामिल",
+      "items": [
+        "प्रति-उपयोगकर्ता बिलिंग",
+        "बुकिंग पेज",
+        "रिमाइंडर"
+      ]
+    },
+    "comparison": {
+      "title": "फीचर तुलना",
+      "subtitle": "बिल प्रति उपयोगकर्ता, प्रति वर्कस्पेस. Starter पर 1 बुकिंग पेज, 10 इंटीग्रेशन और बेसिक रिपोर्ट. Premium पर स्टूडियो के लिए ज़रूरी रिपोर्ट. कस्टम रिपोर्ट और वर्कफ़्लो Enterprise पर।",
+      "groups": [
+        {
+          "title": "वर्कस्पेस",
+          "rows": [
+            {
+              "label": "वर्कस्पेस में लोग",
+              "hint": "इस वर्कस्पेस में कौन साइन इन कर सकता है",
+              "values": [
+                "1–5",
+                "2–50",
+                "50+"
+              ]
+            },
+            {
+              "label": "बुकिंग पेज",
+              "hint": "यह वर्कस्पेस कितने सार्वजनिक बुकिंग पेज प्रकाशित कर सकता है",
+              "values": [
+                "1",
+                "अनलिमिटेड",
+                "अनलिमिटेड"
+              ]
+            },
+            {
+              "label": "Indlio वॉटरमार्क",
+              "hint": "Starter बुकिंग पेज पर दिखता है. Premium और Enterprise पर नहीं।",
+              "values": [
+                "हाँ",
+                "नहीं",
+                "नहीं"
+              ]
+            },
+            {
+              "label": "प्रति-उपयोगकर्ता बिलिंग",
+              "hint": "वर्कस्पेस में हर उपयोगकर्ता पर बिल",
+              "values": [
+                true,
+                true,
+                true
+              ]
+            },
+            {
+              "label": "कस्टम फ़ॉर्म",
+              "values": [
+                false,
+                true,
+                true
+              ]
+            }
+          ]
+        },
+        {
+          "title": "बुकिंग",
+          "rows": [
+            {
+              "label": "रिमाइंडर जो नो-शो घटाते हैं",
+              "values": [
+                true,
+                true,
+                true
+              ]
+            },
+            {
+              "label": "क्लास और कंसल्ट",
+              "values": [
+                true,
+                true,
+                true
+              ]
+            },
+            {
+              "label": "स्टाफ़ और रूम शेड्यूल",
+              "values": [
+                false,
+                true,
+                true
+              ]
+            },
+            {
+              "label": "मल्टी-लोकेशन कैलेंडर",
+              "values": [
+                false,
+                false,
+                true
+              ]
+            }
+          ]
+        },
+        {
+          "title": "इंटीग्रेशन और सेटअप",
+          "rows": [
+            {
+              "label": "इंटीग्रेशन",
+              "hint": "Starter में 10 इंटीग्रेशन. अनलिमिटेड इंटीग्रेशन Premium से।",
+              "values": [
+                "10",
+                "अनलिमिटेड",
+                "अनलिमिटेड"
+              ]
+            },
+            {
+              "label": "मल्टी-करेंसी",
+              "values": [
+                false,
+                true,
+                true
+              ]
+            },
+            {
+              "label": "मल्टी-टाइमज़ोन",
+              "values": [
+                false,
+                true,
+                true
+              ]
+            },
+            {
+              "label": "एडमिन अनुमतियाँ",
+              "values": [
+                false,
+                true,
+                true
+              ]
+            },
+            {
+              "label": "कस्टमर पोर्टल",
+              "values": [
+                false,
+                true,
+                true
+              ]
+            }
+          ]
+        },
+        {
+          "title": "रिपोर्ट और ऑटोमेशन",
+          "rows": [
+            {
+              "label": "रिपोर्ट",
+              "hint": "Starter पर बेसिक. Premium पर स्टूडियो की ज़रूरी रिपोर्ट. Enterprise पर कस्टम रिपोर्ट।",
+              "values": [
+                "बेसिक",
+                "स्टैंडर्ड",
+                "कस्टम"
+              ]
+            },
+            {
+              "label": "वर्कफ़्लो",
+              "hint": "केवल Enterprise",
+              "values": [
+                false,
+                false,
+                true
+              ]
+            }
+          ]
+        },
+        {
+          "title": "एंटरप्राइज़",
+          "rows": [
+            {
+              "label": "Salesforce लुकअप के साथ रूट",
+              "values": [
+                false,
+                false,
+                true
+              ]
+            },
+            {
+              "label": "Microsoft Dynamics से कनेक्ट",
+              "values": [
+                false,
+                false,
+                true
+              ]
+            },
+            {
+              "label": "SSO और SAML सक्षम करें",
+              "values": [
+                false,
+                false,
+                true
+              ]
+            },
+            {
+              "label": "डोमेन नियंत्रण",
+              "values": [
+                false,
+                false,
+                true
+              ]
+            },
+            {
+              "label": "ऑडिट लॉग अनुपालन",
+              "values": [
+                false,
+                false,
+                true
+              ]
+            },
+            {
+              "label": "डेटा डिलीशन API",
+              "values": [
+                false,
+                false,
+                true
+              ]
+            },
+            {
+              "label": "ऑनबोर्डिंग और इम्प्लीमेंटेशन",
+              "values": [
+                false,
+                false,
+                true
+              ]
+            },
+            {
+              "label": "समर्पित अकाउंट सपोर्ट",
+              "values": [
+                false,
+                false,
+                true
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "अक्सर पूछे जाने वाले प्रश्न",
+      "items": [
+        {
+          "question": "प्लान की कीमत कैसे तय होती है?",
+          "answer": "हर प्लान प्रति उपयोगकर्ता, प्रति वर्कस्पेस बिल होता है. Starter मासिक ₹500, या वार्षिक पर ₹425/उपयोगकर्ता/महीना (15% छूट). Premium मासिक ₹1,000, या वार्षिक पर ₹850/उपयोगकर्ता/महीना (15% छूट). Enterprise सालाना ₹12L से।"
+        },
+        {
+          "question": "किन प्लान में बिलिंग है?",
+          "answer": "सभी में. Starter, Premium और Enterprise प्रति उपयोगकर्ता, प्रति वर्कस्पेस बिल होते हैं — पूरी टीम का एक फ्लैट बिल नहीं।"
+        },
+        {
+          "question": "कितने लोग और बुकिंग पेज मिलते हैं?",
+          "answer": "Starter 1–5 लोग और 1 बुकिंग पेज, जिस पर Indlio वॉटरमार्क होता है. Premium 2–50 लोग और अनलिमिटेड बुकिंग पेज, बिना वॉटरमार्क. Enterprise 50+ लोग और अनलिमिटेड बुकिंग पेज, बिना वॉटरमार्क।"
+        },
+        {
+          "question": "Premium में क्या है जो Starter में नहीं?",
+          "answer": "मल्टी-करेंसी, मल्टी-टाइमज़ोन, कस्टम फ़ॉर्म, कस्टमर पोर्टल, अनलिमिटेड इंटीग्रेशन और स्टैंडर्ड रिपोर्ट Premium से. Starter में 10 इंटीग्रेशन, बेसिक रिपोर्ट और बुकिंग पेज पर Indlio वॉटरमार्क. हर प्लान प्रति उपयोगकर्ता, प्रति वर्कस्पेस बिल होता है।"
+        },
+        {
+          "question": "Premium और Enterprise में क्या फ़र्क है?",
+          "answer": "Premium एक स्टूडियो के लिए है जो एक कैलेंडर साझा करता है, 50 लोगों, अनलिमिटेड बुकिंग पेज और स्टैंडर्ड रिपोर्ट तक. Enterprise कस्टम रिपोर्ट, वर्कफ़्लो और मल्टी-लोकेशन एक्सेस जोड़ता है, साथ ही SSO और SAML, Salesforce और Dynamics, डोमेन नियंत्रण, ऑडिट लॉग, डेटा डिलीशन API, ऑनबोर्डिंग और इम्प्लीमेंटेशन, और समर्पित अकाउंट सपोर्ट।"
+        },
+        {
+          "question": "शामिल होने के लिए कार्ड चाहिए?",
+          "answer": "नहीं. वेटलिस्ट एक ईमेल है. पहले SMEs के लिए Bookings तैयार होने पर हम लिखेंगे।"
+        },
+        {
+          "question": "बाद में प्लान बदल सकते हैं?",
+          "answer": "हाँ. Starter से शुरू करें और वर्कस्पेस बढ़ने पर Premium या Enterprise पर जाएँ।"
+        }
+      ]
+    },
+    "closing": {
+      "title": "पहले लिंक से पहली बुकिंग तक।",
+      "subtitle": "सूची में शामिल हों। पहले छोटे व्यवसायों के लिए बुकिंग तैयार होने पर हम लिखेंगे।",
+      "cta": {
+        "label": "वेटलिस्ट में शामिल हों",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  },
+  "ui": {
+    "primaryNav": "मुख्य",
+    "mobileNav": "मोबाइल",
+    "openMenu": "मेनू खोलें",
+    "closeMenu": "मेनू बंद करें",
+    "legal": "कानूनी",
+    "billingPeriod": "बिलिंग अवधि",
+    "featuresEyebrow": "फीचर",
+    "navOverview": "अवलोकन",
+    "language": "भाषा",
+    "copyrightLabel": "कॉपीराइट"
+  }
+}

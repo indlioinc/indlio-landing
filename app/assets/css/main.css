@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-title: "Google Sans", "Product Sans", "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Newsreader", "Times New Roman", ui-serif, Georgia, serif;
+  --color-brand: var(--brand-primary, #6a5ae0);
+  --color-brand-cyan: var(--brand-cyan, #1db9de);
+  --color-brand-teal: var(--brand-teal, #14c2a3);
+  --color-ink: var(--brand-ink, #0f1222);
+  --color-muted: var(--brand-muted, #5b6178);
+  --color-surface: var(--brand-surface, #f7f7fb);
+  --color-accent: var(--brand-accent, #c8f247);
+  --color-hero: var(--brand-hero, #0d0d0d);
+  --animate-orb-a: orb-a 22s ease-in-out infinite;
+  --animate-orb-b: orb-b 28s ease-in-out infinite;
+  --animate-orb-c: orb-c 24s ease-in-out infinite;
+}
+
+@layer base {
+  html,
+  body {
+    background-color: white;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-title);
+  }
+}
+
+@keyframes orb-a {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(12%, 18%, 0) scale(1.18); }
+}
+
+@keyframes orb-b {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1.05); }
+  50% { transform: translate3d(-16%, -10%, 0) scale(1); }
+}
+
+@keyframes orb-c {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(-10%, 14%, 0) scale(1.22); }
+}
+
+@layer components {
+  .section-split,
+  .section-split-over,
+  .section-split.section-split-after-hero,
+  .section-split.section-split-after-values,
+  .section-split.section-split-flat-top,
+  .section-split.section-split-flat-bottom,
+  .hero-curve {
+    position: relative;
+    z-index: auto;
+    margin-top: 0;
+    scroll-margin-top: 4.5rem;
+    border-radius: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: none;
+  }
+
+  /* Footer smile: waitlist card sits on the crest. */
+  .footer-curve {
+    overflow-x: clip;
+    border-top-left-radius: 50% 2.25rem;
+    border-top-right-radius: 50% 2.25rem;
+  }
+
+  @media (min-width: 640px) {
+    .footer-curve {
+      border-top-left-radius: 50% 5rem;
+      border-top-right-radius: 50% 5rem;
+    }
+  }
+
+  /* Sharp top-left / bottom-right, larger curves on the other pair. */
+  .radius-slash {
+    border-radius: var(--radius-slash, 1.2rem);
+  }
+}

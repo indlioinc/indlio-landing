@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+  <circle cx="12" cy="12" r="11" fill="#1C8DDB"/>
+  <circle cx="12" cy="12" r="8.55" fill="#F4F7FA"/>
+  <g fill="#1C8DDB">
+    <rect x="11.6" y="4.05" width=".8" height="1.55" rx=".2"/>
+    <rect x="11.6" y="4.05" width=".8" height="1.55" rx=".2" transform="rotate(30 12 12)"/>
+    <rect x="11.6" y="4.05" width=".8" height="1.55" rx=".2" transform="rotate(60 12 12)"/>
+    <rect x="11.6" y="4.05" width=".8" height="1.55" rx=".2" transform="rotate(90 12 12)"/>
+    <rect x="11.6" y="4.05" width=".8" height="1.55" rx=".2" transform="rotate(120 12 12)"/>
+    <rect x="11.6" y="4.05" width=".8" height="1.55" rx=".2" transform="rotate(150 12 12)"/>
+    <rect x="11.6" y="4.05" width=".8" height="1.55" rx=".2" transform="rotate(180 12 12)"/>
+    <rect x="11.6" y="4.05" width=".8" height="1.55" rx=".2" transform="rotate(210 12 12)"/>
+    <rect x="11.6" y="4.05" width=".8" height="1.55" rx=".2" transform="rotate(240 12 12)"/>
+    <rect x="11.6" y="4.05" width=".8" height="1.55" rx=".2" transform="rotate(270 12 12)"/>
+    <rect x="11.6" y="4.05" width=".8" height="1.55" rx=".2" transform="rotate(300 12 12)"/>
+    <rect x="11.6" y="4.05" width=".8" height="1.55" rx=".2" transform="rotate(330 12 12)"/>
+  </g>
+  <polygon fill="#E24B4A" points="12,5.45 13.85,12 12,12"/>
+  <polygon fill="#2C2C38" points="12,18.55 10.15,12 12,12"/>
+  <circle cx="12" cy="12" r="1.05" fill="#1C8DDB"/>
+</svg>

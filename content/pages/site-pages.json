@@ -1,0 +1,960 @@
+{
+  "solutions/individuals": {
+    "seo": {
+      "title": "For individuals — Indlio",
+      "description": "Indlio Bookings for solo tutors, consultants, and practitioners. Share a link, take the booking, and get back to the work."
+    },
+    "eyebrow": "Solutions",
+    "title": "One person. One calendar. Bookings that do not eat the evening.",
+    "subtitle": "Built for the tutor, consultant, and practitioner who still runs the diary in chat — and wants a public page instead.",
+    "highlights": {
+      "eyebrow": "For individuals",
+      "title": "Go live without hiring an ops person.",
+      "subtitle": "Share a link. Take classes, consults, and walk-ins. Keep the rest of the day for the work.",
+      "items": [
+        {
+          "title": "A page that looks like you",
+          "body": "A public booking page you can send from the room. Clients pick a time. You stop typing the same availability into DMs."
+        },
+        {
+          "title": "Reminders that sound human",
+          "body": "One missed session should not become a habit. Follow-ups stay short, specific, and easy to act on from a phone."
+        },
+        {
+          "title": "Live today, not next month",
+          "body": "No six-week implementation. No training project. Indlio Bookings is the path from first link to first booking."
+        }
+      ]
+    },
+    "closing": {
+      "title": "Ready when you are.",
+      "subtitle": "Join the list. We’ll write when bookings is ready for solo practices.",
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  },
+  "solutions/teams": {
+    "seo": {
+      "title": "For teams — Indlio",
+      "description": "Shared calendars for studios and practices. One booking page, one diary, no more chat-thread scheduling."
+    },
+    "eyebrow": "Solutions",
+    "title": "A shared calendar the whole room can trust.",
+    "subtitle": "For the studio or practice that outgrew a spreadsheet and is tired of asking “who took this slot?” in the group chat.",
+    "highlights": {
+      "eyebrow": "For teams",
+      "title": "One diary. Fewer collisions.",
+      "subtitle": "Front desk, instructors, and owners see the same bookings — classes, consults, and walk-ins included.",
+      "items": [
+        {
+          "title": "Stop double-booking in chat",
+          "body": "The calendar is the source of truth. When someone books, the slot is gone for everyone — not just the person who saw the message."
+        },
+        {
+          "title": "Roles without the ceremony",
+          "body": "Owners set the hours. The team takes the bookings. No enterprise access review before the first client of the day."
+        },
+        {
+          "title": "Same flow on a phone",
+          "body": "Most bookings happen between sessions. The path has to work on the front desk laptop and in someone’s pocket."
+        }
+      ]
+    },
+    "closing": {
+      "title": "Get the team on one calendar.",
+      "subtitle": "Join the list. We’ll write when bookings is ready for the first studios.",
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  },
+  "solutions/studios": {
+    "seo": {
+      "title": "For studios — Indlio",
+      "description": "Booking software for studios that run classes, private sessions, and walk-ins on one calendar."
+    },
+    "eyebrow": "Solutions",
+    "title": "The studio calendar that keeps up with the floor.",
+    "subtitle": "Classes, privates, and drop-ins belong in one product — not a class app, a WhatsApp thread, and a paper sheet at the door.",
+    "highlights": {
+      "eyebrow": "For studios",
+      "title": "Fill the room without filling a spreadsheet.",
+      "subtitle": "A public page for the weekly timetable. A shared diary for the instructors. Reminders that cut no-shows.",
+      "items": [
+        {
+          "title": "Classes and walk-ins together",
+          "body": "The timetable and the drop-in list should not live in different tools. One calendar for the people who run the room."
+        },
+        {
+          "title": "Instructors stay in sync",
+          "body": "Cover, substitutions, and late adds show up for the whole team. Nobody finds out about a full class at the door."
+        },
+        {
+          "title": "Members book themselves",
+          "body": "Send the link once. They pick the class. You spend the hour teaching instead of taking names."
+        }
+      ]
+    },
+    "closing": {
+      "title": "Built for the people who run the room.",
+      "subtitle": "Join the list. We’ll write when bookings is ready for the first studios.",
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  },
+  "industries/professional-services": {
+    "seo": {
+      "title": "Professional services — Indlio",
+      "description": "Turn WhatsApp inquiries into confirmed consults. Booking for consultants, freelancers, and agencies in India."
+    },
+    "eyebrow": "Industries",
+    "title": "The consult should not start in a 40-message thread.",
+    "subtitle": "For consultants, freelancers, and agencies that still confirm demos and reviews over WhatsApp.",
+    "quote": {
+      "label": "The gap",
+      "body": "Clients want to chat before they commit. You need a slot, an advance, and a reminder — without living in the thread."
+    },
+    "highlights": {
+      "eyebrow": "Professional services",
+      "title": "From inquiry to confirmed consult.",
+      "subtitle": "A service list, open times, and a WhatsApp confirmation. The diary stays with you.",
+      "items": [
+        {
+          "title": "Chat, then book",
+          "body": "Keep the conversation on WhatsApp. When they are ready, they pick a service and a slot instead of asking if Thursday still works."
+        },
+        {
+          "title": "Advances in the path",
+          "body": "Collect a fee when the time is reserved. Reschedules and cancellations sit next to the booking, not in a second notebook."
+        },
+        {
+          "title": "One diary for the practice",
+          "body": "Associates, partners, and walk-ins share the same week. Nobody double-books because two people answered the same chat."
+        }
+      ]
+    },
+    "who": {
+      "eyebrow": "Who uses this",
+      "title": "Practices that sell time.",
+      "subtitle": "If the next conversation is still being scheduled by hand, this is for you.",
+      "items": [
+        {
+          "label": "Consultants and freelancers"
+        },
+        {
+          "label": "Agencies and B2B services"
+        },
+        {
+          "label": "Advisors and coaches"
+        }
+      ]
+    },
+    "closing": {
+      "title": "Book the next consult without the chase.",
+      "subtitle": "Join the list. We’ll write when bookings is ready for practices.",
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  },
+  "industries/education": {
+    "seo": {
+      "title": "Education — Indlio",
+      "description": "Turn parent chats into confirmed lessons. Booking for tutors, coaches, and learning centres in India."
+    },
+    "eyebrow": "Industries",
+    "title": "The next lesson should be booked before they leave the room.",
+    "subtitle": "For tutors, coaching centres, and teachers who still confirm batches over WhatsApp after class.",
+    "quote": {
+      "label": "The gap",
+      "body": "Parents message. You check the batch. You type yes. Then you remind them again. That is not a timetable — it is a second job."
+    },
+    "highlights": {
+      "eyebrow": "Education",
+      "title": "From inquiry to a reserved seat.",
+      "subtitle": "1:1s and group batches on one diary. Parents pick a slot. You teach.",
+      "items": [
+        {
+          "title": "WhatsApp in, slot out",
+          "body": "Keep the parent conversation. When they are ready, they choose the class and time instead of waiting for you to reply after 9pm."
+        },
+        {
+          "title": "Batches and 1:1s together",
+          "body": "Capacity is visible before you say yes. A full batch is full — not “let me check and message you back.”"
+        },
+        {
+          "title": "Reminders parents open",
+          "body": "A short note with the class, the time, and what to do next. Fewer empty chairs on Saturday morning."
+        }
+      ]
+    },
+    "who": {
+      "eyebrow": "Who uses this",
+      "title": "Rooms that run on batches and 1:1s.",
+      "subtitle": "Tuition, coaching, and the teacher who still keeps the diary in chat.",
+      "items": [
+        {
+          "label": "Tuition and coaching"
+        },
+        {
+          "label": "Tutors and teachers"
+        },
+        {
+          "label": "Learning studios"
+        }
+      ]
+    },
+    "closing": {
+      "title": "Keep the timetable full.",
+      "subtitle": "Join the list. We’ll write when bookings is ready for tutors and centres.",
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  },
+  "industries/wellness": {
+    "seo": {
+      "title": "Wellness — Indlio",
+      "description": "Turn WhatsApp requests into confirmed sessions. Booking for clinics, salons, and fitness rooms in India."
+    },
+    "eyebrow": "Industries",
+    "title": "The treatment room should not run on DMs.",
+    "subtitle": "For clinics, salons, and trainers who take walk-ins, consults, and packages — and still confirm them in chat.",
+    "quote": {
+      "label": "The gap",
+      "body": "Customers ask if 6pm is free. Someone checks the book. Someone forgets to reply. The hour is gone."
+    },
+    "highlights": {
+      "eyebrow": "Wellness",
+      "title": "From inquiry to a confirmed chair.",
+      "subtitle": "Services, staff, and walk-ins on one diary. Confirmation on WhatsApp. Reminders that cut no-shows.",
+      "items": [
+        {
+          "title": "Services they can pick",
+          "body": "Haircut, consult, session — they choose what they need and see who is free. You stop typing the menu into every chat."
+        },
+        {
+          "title": "Staff and walk-ins together",
+          "body": "Cover, late adds, and the person at the door share the same day. Nobody discovers a double-booked chair at 5:55."
+        },
+        {
+          "title": "Pay, then show up",
+          "body": "Take an advance when the slot is reserved. Automated reminders sound like the front desk, not a ticket."
+        }
+      ]
+    },
+    "who": {
+      "eyebrow": "Who uses this",
+      "title": "Rooms that book people in, every day.",
+      "subtitle": "Clinics, salons, and the trainer who still runs the week in WhatsApp.",
+      "items": [
+        {
+          "label": "Clinics and healthcare"
+        },
+        {
+          "label": "Salons and beauty"
+        },
+        {
+          "label": "Fitness trainers"
+        }
+      ]
+    },
+    "closing": {
+      "title": "Fill the room, not the inbox.",
+      "subtitle": "Join the list. We’ll write when bookings is ready for wellness rooms.",
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  },
+  "industries/creative-studios": {
+    "seo": {
+      "title": "Creative studios — Indlio",
+      "description": "Turn WhatsApp inquiries into confirmed shoots and workshops. Booking for photographers, designers, and studios in India."
+    },
+    "eyebrow": "Industries",
+    "title": "Studio time, booked — without the group chat.",
+    "subtitle": "For photographers, wedding vendors, and interior designers who still confirm dates over WhatsApp.",
+    "quote": {
+      "label": "The gap",
+      "body": "The shoot is real work. Confirming the date should not be a second production."
+    },
+    "highlights": {
+      "eyebrow": "Creative studios",
+      "title": "From inquiry to a reserved date.",
+      "subtitle": "Sessions, workshops, and site visits on one diary. They pick a slot. You keep the hour.",
+      "items": [
+        {
+          "title": "Packages they can choose",
+          "body": "Portrait, wedding day, site visit — they pick the work and see open dates instead of asking you to list them again."
+        },
+        {
+          "title": "Rooms and people on one grid",
+          "body": "Who has the space, who is on the job, and what is still open — visible before you say yes."
+        },
+        {
+          "title": "Advance, then the reminder",
+          "body": "Take a booking fee when the date is held. A short confirmation on WhatsApp beats another “just checking.”"
+        }
+      ]
+    },
+    "who": {
+      "eyebrow": "Who uses this",
+      "title": "Studios that sell dates.",
+      "subtitle": "If the calendar still lives in a vendor group, this is for you.",
+      "items": [
+        {
+          "label": "Photographers and wedding vendors"
+        },
+        {
+          "label": "Interior designers"
+        },
+        {
+          "label": "Workshops and studio hire"
+        }
+      ]
+    },
+    "closing": {
+      "title": "Keep the studio booked.",
+      "subtitle": "Join the list. We’ll write when bookings is ready for creative rooms.",
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  },
+  "product-tour": {
+    "seo": {
+      "title": "Product tour — Indlio",
+      "description": "A look at Indlio Bookings: a public page, a shared calendar, and reminders that feel human."
+    },
+    "eyebrow": "Resources",
+    "title": "From first link to first booking.",
+    "subtitle": "Indlio Bookings is a clear path to go live: a public page, a shared calendar, and reminders that feel like a person wrote them.",
+    "highlights": {
+      "eyebrow": "Product tour",
+      "title": "What you get on day one.",
+      "subtitle": "No feature tour that lasts an afternoon. The product has to work between clients.",
+      "items": [
+        {
+          "title": "A public booking page",
+          "body": "Share a link. Clients pick a class, consult, or walk-in. The page is the front door — not a form buried in email."
+        },
+        {
+          "title": "A calendar the team can trust",
+          "body": "One diary for the room. When a slot is taken, it is taken. Owners and the floor see the same week."
+        },
+        {
+          "title": "Reminders that cut no-shows",
+          "body": "Short, specific, and easy to act on. Same flow on a phone as on a laptop. Most bookings happen between sessions."
+        }
+      ]
+    },
+    "closing": {
+      "title": "See it when it is ready.",
+      "subtitle": "Join the list. We’ll write when Indlio Bookings is open for the first SMEs.",
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  },
+  "whats-new": {
+    "seo": {
+      "title": "What’s new — Indlio",
+      "description": "Product notes from Indlio as we ship booking software SMEs can use on day one."
+    },
+    "eyebrow": "Resources",
+    "title": "What we are shipping.",
+    "subtitle": "Indlio Bookings is in build. This page is for the work that matters: going live today, not next month.",
+    "highlights": {
+      "eyebrow": "What’s new",
+      "title": "The path we are on.",
+      "subtitle": "A public page, a shared calendar, and human reminders — then the rest of the platform.",
+      "items": [
+        {
+          "title": "Bookings first",
+          "body": "We are building the path from first link to first booking before we add a dashboard nobody asked for."
+        },
+        {
+          "title": "Notes, not a changelog dump",
+          "body": "When there is something worth reading, it lands on the blog and in the waitlist note. No weekly noise."
+        },
+        {
+          "title": "Built with the first studios",
+          "body": "The first SMEs on the list help us keep the product simple enough to use mid-session."
+        }
+      ]
+    },
+    "closing": {
+      "title": "Want the next note?",
+      "subtitle": "Join the list. We’ll write when there is something worth sending.",
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  },
+  "community": {
+    "seo": {
+      "title": "Community — Indlio",
+      "description": "A community of Indian SMB operators who still book over WhatsApp — and want those chats to become confirmed appointments."
+    },
+    "eyebrow": "Community",
+    "title": "For the people who still run the room.",
+    "subtitle": "Indlio is being built with clinics, salons, tutors, agents, and studios — not for a buyer who never takes a booking.",
+    "quote": {
+      "label": "Why this community",
+      "body": "Indian SMBs don’t need another calendar meetup. They need a simple way to turn customer conversations into confirmed appointments — and the people who live that problem should shape the product."
+    },
+    "highlights": {
+      "eyebrow": "How we work together",
+      "title": "Come in early. Keep it useful.",
+      "subtitle": "The waitlist is how we find the first operators. The conversations stay about the day, not a feature wishlist.",
+      "items": [
+        {
+          "title": "Operators, not spectators",
+          "body": "If you take appointments, consults, or walk-ins over WhatsApp, you already know the pain. We want that in the product."
+        },
+        {
+          "title": "Write when it is useful",
+          "body": "We will not fill your inbox. When bookings is ready — or when there is a note worth reading — we write."
+        },
+        {
+          "title": "Same standards as the product",
+          "body": "Clear, short, and respectful of the hour. If it does not help someone confirm a slot, it does not ship."
+        }
+      ]
+    },
+    "who": {
+      "eyebrow": "Who is already in the room",
+      "title": "Operators, not spectators.",
+      "subtitle": "If you book people in over WhatsApp every week, you already know the pain.",
+      "items": [
+        {
+          "label": "Clinics and healthcare",
+          "href": "/industries/wellness"
+        },
+        {
+          "label": "Salons and beauty",
+          "href": "/industries/wellness"
+        },
+        {
+          "label": "Consultants and freelancers",
+          "href": "/industries/professional-services"
+        },
+        {
+          "label": "Tuition and coaching",
+          "href": "/industries/education"
+        },
+        {
+          "label": "Real-estate agents",
+          "href": "/industries/real-estate"
+        },
+        {
+          "label": "Photographers and wedding vendors",
+          "href": "/industries/creative-studios"
+        },
+        {
+          "label": "Repair and home services",
+          "href": "/industries/home-services"
+        },
+        {
+          "label": "Agencies and B2B services",
+          "href": "/industries/professional-services"
+        }
+      ]
+    },
+    "closing": {
+      "title": "Join the first operators.",
+      "subtitle": "Get on the list if this is the booking problem you live with.",
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  },
+  "developers": {
+    "seo": {
+      "title": "Developer tools — Indlio",
+      "description": "APIs and tools for teams who want Indlio Bookings in their own product. Join the waitlist for early access."
+    },
+    "eyebrow": "Resources",
+    "title": "Tools for teams who already have a product.",
+    "subtitle": "Indlio Bookings will expose the booking path — pages, calendars, and reminders — so you do not rebuild the diary.",
+    "highlights": {
+      "eyebrow": "Developer tools",
+      "title": "APIs after the path is solid.",
+      "subtitle": "We ship the product SMEs can use on day one, then open the same path for partners and builders.",
+      "items": [
+        {
+          "title": "Bookings as a path, not a widget dump",
+          "body": "A public page, availability, and a confirmation. The integration should stay as simple as the product."
+        },
+        {
+          "title": "Calendars you can trust",
+          "body": "Slots have to be real. If a time is taken in Indlio, it is taken everywhere you show it."
+        },
+        {
+          "title": "Early access through the list",
+          "body": "Docs and keys are not public yet. Join the waitlist and tell us what you are building."
+        }
+      ]
+    },
+    "closing": {
+      "title": "Building on Indlio?",
+      "subtitle": "Join the list. We’ll write when developer access is ready.",
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  },
+  "partners": {
+    "seo": {
+      "title": "Become a partner — Indlio",
+      "description": "Partner with Indlio to bring India-first booking — WhatsApp to confirmed appointments — to the SMBs you already serve."
+    },
+    "eyebrow": "Community",
+    "title": "Bring bookings to the rooms you already serve.",
+    "subtitle": "For agencies, networks, and operators who help Indian SMBs — and do not want to hand them another calendar link.",
+    "quote": {
+      "label": "The partner problem",
+      "body": "Your clients already live in WhatsApp. A partner product has to turn those chats into confirmed slots — without a six-week implementation on your name."
+    },
+    "highlights": {
+      "eyebrow": "Become a partner",
+      "title": "A product you can stand behind.",
+      "subtitle": "We treat fragmented WhatsApp booking as a design problem. Partners should be able to say the same.",
+      "items": [
+        {
+          "title": "Rooms you already know",
+          "body": "Clinics, salons, tutors, agents, studios — if you support them, Indlio Bookings is the path you can send."
+        },
+        {
+          "title": "No implementation theatre",
+          "body": "The product has to go live the same day. If it needs a project plan, it is not ready for your clients."
+        },
+        {
+          "title": "Talk to us early",
+          "body": "Partner terms are not public yet. Join the list and tell us who you serve. We’ll write when there is a seat."
+        }
+      ]
+    },
+    "who": {
+      "eyebrow": "Who you might serve",
+      "title": "The same operators we are building for.",
+      "subtitle": "If these rooms are already in your book, you are in the right place.",
+      "items": [
+        {
+          "label": "Clinics and salons",
+          "href": "/industries/wellness"
+        },
+        {
+          "label": "Tutors and centres",
+          "href": "/industries/education"
+        },
+        {
+          "label": "Agents and brokers",
+          "href": "/industries/real-estate"
+        },
+        {
+          "label": "Studios and vendors",
+          "href": "/industries/creative-studios"
+        },
+        {
+          "label": "Home-service crews",
+          "href": "/industries/home-services"
+        },
+        {
+          "label": "Agencies and practices",
+          "href": "/industries/professional-services"
+        }
+      ]
+    },
+    "closing": {
+      "title": "Want to partner?",
+      "subtitle": "Join the list. We’ll write when the partner path is open.",
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  },
+  "solutions/sales": {
+    "seo": {
+      "title": "Sales — Indlio",
+      "description": "Book demos and consults without the back-and-forth. Indlio Bookings for sales teams."
+    },
+    "eyebrow": "By team",
+    "title": "The next meeting gets booked in the room.",
+    "subtitle": "For sales teams that still schedule demos over email — and lose the hour to the thread.",
+    "highlights": {
+      "eyebrow": "Sales",
+      "title": "Close the time. Keep the deal moving.",
+      "subtitle": "Share a link. The prospect picks a slot. You get back to the conversation.",
+      "items": [
+        {
+          "title": "Demos without the inbox",
+          "body": "Send availability once. They book themselves. You stop negotiating Tuesday afternoon in a thread."
+        },
+        {
+          "title": "One diary for the team",
+          "body": "When a slot is taken, it is taken. No double-booked demos because two people answered the same email."
+        },
+        {
+          "title": "Reminders that get opened",
+          "body": "Short, specific, easy to act on. A missed intro should not become a lost week."
+        }
+      ]
+    },
+    "closing": {
+      "title": "Book the next conversation.",
+      "subtitle": "Join the list. We’ll write when bookings is ready for sales teams.",
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  },
+  "solutions/marketing": {
+    "seo": {
+      "title": "Marketing — Indlio",
+      "description": "Turn interest into a booked slot. Indlio Bookings for marketing teams."
+    },
+    "eyebrow": "By team",
+    "title": "The campaign should end in a booking, not a form.",
+    "subtitle": "For marketing teams that generate interest — and then lose it in a scheduling thread.",
+    "highlights": {
+      "eyebrow": "Marketing",
+      "title": "From click to calendar.",
+      "subtitle": "A public page on the landing path. A reminder that names the time. No six-week rollout first.",
+      "items": [
+        {
+          "title": "A link you can put anywhere",
+          "body": "The booking page is the conversion. Campaigns, bios, and follow-ups all point at the same slots."
+        },
+        {
+          "title": "Capacity stays real",
+          "body": "If a workshop or consult is full, the page says so. You do not overbook a webinar from three channels."
+        },
+        {
+          "title": "Live today",
+          "body": "No implementation project before the next campaign. Share the link. Take the booking."
+        }
+      ]
+    },
+    "closing": {
+      "title": "Make the next click a booking.",
+      "subtitle": "Join the list. We’ll write when bookings is ready for marketing teams.",
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  },
+  "solutions/customer-success": {
+    "seo": {
+      "title": "Customer success — Indlio",
+      "description": "Book check-ins and reviews without the calendar chase. Indlio Bookings for customer success."
+    },
+    "eyebrow": "By team",
+    "title": "Check-ins that happen because booking was simple.",
+    "subtitle": "For customer success teams that still schedule reviews in chat — and miss the ones that matter.",
+    "highlights": {
+      "eyebrow": "Customer success",
+      "title": "Connect without the chase.",
+      "subtitle": "Customers pick a time. The team sees the same week. Reminders cut the empty call.",
+      "items": [
+        {
+          "title": "Reviews on a public page",
+          "body": "Send the link after onboarding. They book the next check-in themselves."
+        },
+        {
+          "title": "One calendar across the team",
+          "body": "Cover and handoffs show up for everyone. Nobody discovers a double-booked review at the hour."
+        },
+        {
+          "title": "A reminder that sounds human",
+          "body": "Name the session and the time. Short enough to read between calls."
+        }
+      ]
+    },
+    "closing": {
+      "title": "Keep the next review on the calendar.",
+      "subtitle": "Join the list. We’ll write when bookings is ready for customer success.",
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  },
+  "solutions/recruiting": {
+    "seo": {
+      "title": "Recruiting — Indlio",
+      "description": "Book interviews without the email loop. Indlio Bookings for recruiting teams."
+    },
+    "eyebrow": "By team",
+    "title": "Interviews booked before the candidate leaves the tab.",
+    "subtitle": "For recruiting teams that still schedule screens over email — and lose good people in the wait.",
+    "highlights": {
+      "eyebrow": "Recruiting",
+      "title": "Speed up the slot, not the spreadsheet.",
+      "subtitle": "Share availability. Candidates pick a time. Interviewers see the same diary.",
+      "items": [
+        {
+          "title": "Screens without the back-and-forth",
+          "body": "One link in the outreach. They book. You stop offering three windows that are already gone."
+        },
+        {
+          "title": "Interviewers stay aligned",
+          "body": "When a slot is taken, it is taken. Panels and 1:1s live on the same calendar."
+        },
+        {
+          "title": "Reminders that show up",
+          "body": "A short note with the time and what to do next. Fewer no-shows on first screens."
+        }
+      ]
+    },
+    "closing": {
+      "title": "Book the next interview.",
+      "subtitle": "Join the list. We’ll write when bookings is ready for recruiting teams.",
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  },
+  "industries/technology": {
+    "seo": {
+      "title": "Technology — Indlio",
+      "description": "Turn WhatsApp and email interest into confirmed discovery calls. Booking for tech consultancies and product teams in India."
+    },
+    "eyebrow": "Industries",
+    "title": "Discovery should not die in the thread.",
+    "subtitle": "For tech consultancies and product teams that still schedule demos over WhatsApp and email.",
+    "quote": {
+      "label": "The gap",
+      "body": "The product is sharp. The booking path is still “are you free Thursday?”"
+    },
+    "highlights": {
+      "eyebrow": "Technology",
+      "title": "From interest to a confirmed session.",
+      "subtitle": "A public slot list, a shared diary, and a WhatsApp confirmation — live the same day you share the link.",
+      "items": [
+        {
+          "title": "Demos without the inbox",
+          "body": "They pick a time after the chat. You stop offering three windows that are already gone."
+        },
+        {
+          "title": "Slots the team can trust",
+          "body": "If a time is taken, it is taken. No double-booked reviews because two people answered the same lead."
+        },
+        {
+          "title": "No rollout project",
+          "body": "Small product teams do not have a change-management office. The path has to go live today."
+        }
+      ]
+    },
+    "who": {
+      "eyebrow": "Who uses this",
+      "title": "Teams that sell conversations.",
+      "subtitle": "Consultancies, studios, and product teams that book discovery by hand.",
+      "items": [
+        {
+          "label": "Tech consultancies"
+        },
+        {
+          "label": "Product teams"
+        },
+        {
+          "label": "Agencies"
+        }
+      ]
+    },
+    "closing": {
+      "title": "Book the next discovery call.",
+      "subtitle": "Join the list. We’ll write when bookings is ready for technology teams.",
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  },
+  "industries/financial-services": {
+    "seo": {
+      "title": "Financial services — Indlio",
+      "description": "Turn WhatsApp inquiries into confirmed reviews. Booking for advisors and practices in India."
+    },
+    "eyebrow": "Industries",
+    "title": "Client reviews should not start with “are you free?”",
+    "subtitle": "For advisors and practices that still schedule meetings over WhatsApp — and lose the hour to the back-and-forth.",
+    "quote": {
+      "label": "The gap",
+      "body": "The client already messaged you. They should not have to wait for you to check the diary and type a time back."
+    },
+    "highlights": {
+      "eyebrow": "Financial Services",
+      "title": "From inquiry to a confirmed review.",
+      "subtitle": "Clients pick a slot after the chat. The practice sees the same week. Reminders they will actually open.",
+      "items": [
+        {
+          "title": "Chat, then a slot",
+          "body": "Keep the WhatsApp relationship. When they are ready, they book the review instead of waiting on your next reply."
+        },
+        {
+          "title": "One diary across the practice",
+          "body": "Associates and partners see the same week. Walk-ins sit next to the booked reviews."
+        },
+        {
+          "title": "Reminders that get opened",
+          "body": "A short note with the time and what to bring. Fewer empty chairs on review day."
+        }
+      ]
+    },
+    "who": {
+      "eyebrow": "Who uses this",
+      "title": "Practices that live on appointments.",
+      "subtitle": "Advisors, planners, and the partner who still confirms the week in chat.",
+      "items": [
+        {
+          "label": "Advisors and planners"
+        },
+        {
+          "label": "Practices and partners"
+        },
+        {
+          "label": "Client reviews"
+        }
+      ]
+    },
+    "closing": {
+      "title": "Keep the next review on the calendar.",
+      "subtitle": "Join the list. We’ll write when bookings is ready for practices.",
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  },
+  "industries/real-estate": {
+    "seo": {
+      "title": "Real estate — Indlio",
+      "description": "Turn WhatsApp site inquiries into confirmed visits. Booking for real-estate agents in India."
+    },
+    "eyebrow": "Industries",
+    "title": "Site visits should not be scheduled in a 30-message chat.",
+    "subtitle": "For agents who still confirm viewings over WhatsApp — and lose the hour to “coming in 10 minutes.”",
+    "quote": {
+      "label": "The gap",
+      "body": "The lead is already on WhatsApp. They need an open slot, a confirmation, and a reminder — not another “shall I come at 5?”"
+    },
+    "highlights": {
+      "eyebrow": "Real estate",
+      "title": "From inquiry to a confirmed visit.",
+      "subtitle": "Buyers pick a time. You see the day. A WhatsApp confirmation beats chasing the gate.",
+      "items": [
+        {
+          "title": "Visits they can book",
+          "body": "Share open slots for a property. They pick a time after the chat instead of asking you to list every evening."
+        },
+        {
+          "title": "The day’s visits in one place",
+          "body": "Reschedules, no-shows, and the next walkthrough sit on one diary — not across three chats and a notebook."
+        },
+        {
+          "title": "Reminders that land",
+          "body": "A short confirmation with the time and the address. Fewer “sorry, stuck in traffic” empty slots."
+        }
+      ]
+    },
+    "who": {
+      "eyebrow": "Who uses this",
+      "title": "Agents who live in WhatsApp.",
+      "subtitle": "If the next viewing is still being confirmed by hand, this is for you.",
+      "items": [
+        {
+          "label": "Real-estate agents"
+        },
+        {
+          "label": "Site visits and walkthroughs"
+        },
+        {
+          "label": "Independent brokers"
+        }
+      ]
+    },
+    "closing": {
+      "title": "Book the next visit.",
+      "subtitle": "Join the list. We’ll write when bookings is ready for agents.",
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  },
+  "industries/home-services": {
+    "seo": {
+      "title": "Home services — Indlio",
+      "description": "Turn WhatsApp service requests into confirmed jobs. Booking for repair and home-service businesses in India."
+    },
+    "eyebrow": "Industries",
+    "title": "The job should be booked before you leave the last house.",
+    "subtitle": "For repair and home-service businesses that still confirm visits over phone calls and WhatsApp.",
+    "quote": {
+      "label": "The gap",
+      "body": "The customer already described the problem in chat. They should be able to pick a slot — not wait for you to call back."
+    },
+    "highlights": {
+      "eyebrow": "Home services",
+      "title": "From inquiry to a confirmed visit.",
+      "subtitle": "Services, staff, and the day’s jobs on one diary. Confirmation on WhatsApp. Fewer missed doors.",
+      "items": [
+        {
+          "title": "A service they can pick",
+          "body": "Repair, install, follow-up — they choose the job and an open window after the chat."
+        },
+        {
+          "title": "The crew sees the same day",
+          "body": "Who is on the job, what is still open, and what moved. Nobody finds out about a double booking at the gate."
+        },
+        {
+          "title": "Advance and a reminder",
+          "body": "Take a booking fee when the slot is held. A short WhatsApp reminder cuts the empty visit."
+        }
+      ]
+    },
+    "who": {
+      "eyebrow": "Who uses this",
+      "title": "Crews that book the day by chat.",
+      "subtitle": "Repair, install, and the owner who still runs the route in WhatsApp.",
+      "items": [
+        {
+          "label": "Repair and home services"
+        },
+        {
+          "label": "Install and maintenance"
+        },
+        {
+          "label": "Independent technicians"
+        }
+      ]
+    },
+    "closing": {
+      "title": "Book the next job.",
+      "subtitle": "Join the list. We’ll write when bookings is ready for home-service teams.",
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      }
+    }
+  }
+}

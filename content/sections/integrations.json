@@ -1,0 +1,58 @@
+{
+  "id": "integrations",
+  "title": "Connect Indlio with the tools you already use",
+  "subtitle": "A planned integrations layer so bookings can sit next to the calendars, payments, messaging, and video tools SMEs already run.",
+  "rows": {
+    "desktop": [
+      [
+        { "name": "Zoom", "src": "/brand_logo/zoom_2026.webp" },
+        { "name": "Google Calendar", "src": "/brand_logo/google_calendar_2026.webp" },
+        { "name": "Gmail", "src": "/brand_logo/gmail_2026.webp" },
+        { "name": "Google Meet", "src": "/brand_logo/google_meet_2026.webp" },
+        { "name": "Slack", "src": "/brand_logo/slack_2026.webp" },
+        { "name": "Microsoft Teams", "src": "/brand_logo/microsoft_teams_2026.webp" },
+        { "name": "Outlook", "src": "/brand_logo/outlook_2026.webp" },
+        { "name": "Stripe", "src": "/brand_logo/stripe_2026.webp" }
+      ],
+      [
+        { "name": "WhatsApp", "src": "/brand_logo/whatsapp_2026.webp" },
+        { "name": "Razorpay", "src": "/brand_logo/razon_pay_2026.webp" },
+        { "name": "Zoho Calendar", "src": "/brand_logo/zoho_calendar_2026.webp" },
+        { "name": "Paytm", "src": "/brand_logo/paytm_2026.jpg" },
+        { "name": "Webex", "src": "/brand_logo/webex_2026.webp" },
+        { "name": "Intercom", "src": "/brand_logo/intercom_2026.webp" }
+      ]
+    ],
+    "mobile": [
+      [
+        { "name": "Zoom", "src": "/brand_logo/zoom_2026.webp" },
+        { "name": "Gmail", "src": "/brand_logo/gmail_2026.webp" },
+        { "name": "Slack", "src": "/brand_logo/slack_2026.webp" },
+        { "name": "Stripe", "src": "/brand_logo/stripe_2026.webp" }
+      ],
+      [
+        { "name": "WhatsApp", "src": "/brand_logo/whatsapp_2026.webp" },
+        { "name": "Microsoft Teams", "src": "/brand_logo/microsoft_teams_2026.webp" },
+        { "name": "Razorpay", "src": "/brand_logo/razon_pay_2026.webp" },
+        { "name": "Paytm", "src": "/brand_logo/paytm_2026.jpg" }
+      ]
+    ]
+  },
+  "suites": [
+    {
+      "name": "Google suite",
+      "logo": "/brand_logo/google_2026.webp",
+      "body": "Google Calendar, Meet, Gmail, and Drive are planned so bookings and follow-ups can live next to the Google tools your team already uses."
+    },
+    {
+      "name": "Microsoft suite",
+      "logo": "/brand_logo/microsoft_2026.png",
+      "body": "Outlook, Teams, and Microsoft 365 are planned so scheduling and conversations can stay in the Microsoft tools you already run."
+    },
+    {
+      "name": "Zoho suite",
+      "logo": "/brand_logo/zoho_2026.jpg",
+      "body": "Zoho Calendar, Cliq, and Mail are planned so bookings and follow-ups can live next to the Zoho tools your team already uses."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" fill="none" role="img" aria-label="Indlio">
+  <rect x="0" y="0" width="32" height="72" rx="16" fill="#6A5AE0"/>
+  <path d="M40 0h16c8.837 0 16 7.163 16 16v12c0 2.209-1.791 4-4 4H40V0Z" fill="#1DB9DE"/>
+  <path d="M40 40h28c2.209 0 4 1.791 4 4v12c0 8.837-7.163 16-16 16H40V40Z" fill="#14C2A3"/>
+</svg>

@@ -1,0 +1,216 @@
+{
+  "columns": [
+    {
+      "groups": [
+        {
+          "title": "Solutions",
+          "links": [
+            {
+              "label": "For individuals",
+              "href": "/solutions/individuals"
+            },
+            {
+              "label": "For teams",
+              "href": "/solutions/teams"
+            },
+            {
+              "label": "For studios",
+              "href": "/solutions/studios"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "title": "Industries",
+          "links": [
+            {
+              "label": "Professional Services",
+              "href": "/industries/professional-services"
+            },
+            {
+              "label": "Education",
+              "href": "/industries/education"
+            },
+            {
+              "label": "Wellness",
+              "href": "/industries/wellness"
+            },
+            {
+              "label": "Creative studios",
+              "href": "/industries/creative-studios"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "title": "Resources",
+          "links": [
+            {
+              "label": "Join waitlist",
+              "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+            },
+            {
+              "label": "Product tour",
+              "href": "/product-tour"
+            },
+            {
+              "label": "Pricing and plans",
+              "href": "/pricing"
+            },
+            {
+              "label": "What's new",
+              "href": "/whats-new"
+            },
+            {
+              "label": "Community",
+              "href": "/community"
+            },
+            {
+              "label": "Developer tools",
+              "href": "/developers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "title": "Company",
+          "links": [
+            {
+              "label": "About us",
+              "href": "/about"
+            },
+            {
+              "label": "Careers",
+              "href": "/careers",
+              "badge": "We're hiring!"
+            },
+            {
+              "label": "Become a partner",
+              "href": "/partners"
+            },
+            {
+              "label": "Blog",
+              "href": "/blog"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "storesTitle": "Downloads",
+  "stores": [
+    {
+      "label": "App Store",
+      "href": "",
+      "icon": "apple"
+    },
+    {
+      "label": "Google Play",
+      "href": "",
+      "icon": "play"
+    },
+    {
+      "label": "Microsoft Edge",
+      "href": "",
+      "icon": "edge"
+    },
+    {
+      "label": "Safari",
+      "href": "",
+      "icon": "safari"
+    },
+    {
+      "label": "Google Chrome",
+      "href": "",
+      "icon": "chrome"
+    },
+    {
+      "label": "Firefox",
+      "href": "",
+      "icon": "firefox"
+    },
+    {
+      "label": "Outlook",
+      "href": "",
+      "icon": "outlook"
+    }
+  ],
+  "socialsTitle": "Join us on social",
+  "socials": [
+    {
+      "label": "X",
+      "href": "",
+      "icon": "x"
+    },
+    {
+      "label": "Instagram",
+      "href": "",
+      "icon": "instagram"
+    },
+    {
+      "label": "Facebook",
+      "href": "",
+      "icon": "facebook"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "",
+      "icon": "linkedin"
+    }
+  ],
+  "legal": [
+    {
+      "label": "Privacy Policy",
+      "href": "/privacy"
+    },
+    {
+      "label": "Legal",
+      "href": "/legal"
+    },
+    {
+      "label": "Cookies",
+      "href": "/cookies"
+    },
+    {
+      "label": "Cookie Settings",
+      "href": "",
+      "id": "cookie-settings"
+    }
+  ],
+  "languages": [
+    {
+      "code": "en",
+      "label": "English"
+    },
+    {
+      "code": "ta",
+      "label": "தமிழ்"
+    },
+    {
+      "code": "te",
+      "label": "తెలుగు"
+    },
+    {
+      "code": "kn",
+      "label": "ಕನ್ನಡ"
+    },
+    {
+      "code": "hi",
+      "label": "हिन्दी"
+    },
+    {
+      "code": "ml",
+      "label": "മലയാളം"
+    }
+  ],
+  "copyright": "Indlio"
+}

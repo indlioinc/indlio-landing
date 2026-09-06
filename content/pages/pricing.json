@@ -1,0 +1,382 @@
+{
+  "seo": {
+    "title": "Pricing — Indlio Bookings",
+    "description": "Indlio Bookings is billed per user, per workspace. Starter 1–5 people, Premium 2–50, Enterprise 50+. Multi-currency, timezones, integrations, and the customer portal start on Premium."
+  },
+  "eyebrow": "Pricing",
+  "title": "Clear prices. Scale when the team does.",
+  "subtitle": "Every plan is billed per user, per workspace. Starter is 1–5 people, Premium 2–50, Enterprise 50+.",
+  "billing": {
+    "monthlyLabel": "Monthly",
+    "yearlyLabel": "Yearly",
+    "yearlyHint": "15% off",
+    "note": "Billed per user, per workspace on every plan."
+  },
+  "plans": [
+    {
+      "name": "Starter",
+      "price": "₹500",
+      "yearlyPrice": "₹425",
+      "period": "per user / workspace / month",
+      "yearlyPeriod": "per user / workspace / month",
+      "discountLabel": "15% off",
+      "body": "For independents and tiny rooms. 1–5 people on one workspace.",
+      "includesLabel": "Includes",
+      "features": [
+        "1–5 people",
+        "1 booking page",
+        "Indlio watermark on booking page",
+        "Per-user billing",
+        "10 integrations",
+        "Basic reports",
+        "Reminders that cut no-shows"
+      ],
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      },
+      "ctaVariant": "primary"
+    },
+    {
+      "name": "Premium",
+      "price": "₹1,000",
+      "yearlyPrice": "₹850",
+      "period": "per user / workspace / month",
+      "yearlyPeriod": "per user / workspace / month",
+      "discountLabel": "15% off",
+      "body": "For studios that share a calendar. 2–50 people on one workspace.",
+      "featured": true,
+      "badge": "Popular",
+      "includesLabel": "Everything in Starter, and",
+      "features": [
+        "2–50 people",
+        "Unlimited booking pages",
+        "Custom forms",
+        "Multi-currency",
+        "Multi-timezone",
+        "Customer portal",
+        "Unlimited integrations",
+        "Staff and room schedules",
+        "Admin permissions",
+        "Standard reports"
+      ],
+      "cta": {
+        "label": "Join waitlist",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      },
+      "ctaVariant": "accent"
+    },
+    {
+      "name": "Enterprise",
+      "price": "₹12L",
+      "yearlyPrice": "₹12L",
+      "period": "per workspace / year, from",
+      "yearlyPeriod": "per workspace / year, from",
+      "body": "For groups that need access control and rollout help. 50+ people.",
+      "badge": "50+",
+      "includesLabel": "Everything in Premium, and",
+      "features": [
+        "50+ people",
+        "Unlimited booking pages",
+        "Unlimited integrations",
+        "Multi-location calendars",
+        "Access control",
+        "Custom reports",
+        "Workflows",
+        "Route with Salesforce lookup",
+        "Connect Microsoft Dynamics",
+        "Enable SSO & SAML",
+        "Domain control",
+        "Audit log compliance",
+        "Data deletion API",
+        "Onboarding & implementation",
+        "Dedicated account support"
+      ],
+      "cta": {
+        "label": "Talk to sales",
+        "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+      },
+      "ctaVariant": "outline",
+      "yearlyOnly": true
+    }
+  ],
+  "included": {
+    "title": "Every plan includes",
+    "items": [
+      "Per-user billing",
+      "Booking pages",
+      "Reminders"
+    ]
+  },
+  "comparison": {
+    "title": "Compare features",
+    "subtitle": "You pay per user, per workspace. Starter has 1 booking page, 10 integrations, and basic reports. Premium has the reports a studio needs. Custom reports and workflows are on Enterprise.",
+    "groups": [
+      {
+        "title": "Workspace",
+        "rows": [
+          {
+            "label": "People in the workspace",
+            "hint": "Who can sign in to this workspace",
+            "values": [
+              "1–5",
+              "2–50",
+              "50+"
+            ]
+          },
+          {
+            "label": "Booking pages",
+            "hint": "How many public booking pages this workspace can publish",
+            "values": [
+              "1",
+              "Unlimited",
+              "Unlimited"
+            ]
+          },
+          {
+            "label": "Indlio watermark",
+            "hint": "Shown on Starter booking pages. Premium and Enterprise have none.",
+            "values": [
+              "Yes",
+              "No",
+              "No"
+            ]
+          },
+          {
+            "label": "Per-user billing",
+            "hint": "Billed per user in the workspace",
+            "values": [
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "label": "Custom forms",
+            "values": [
+              false,
+              true,
+              true
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Bookings",
+        "rows": [
+          {
+            "label": "Reminders that cut no-shows",
+            "values": [
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "label": "Classes and consults",
+            "values": [
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "label": "Staff and room schedules",
+            "values": [
+              false,
+              true,
+              true
+            ]
+          },
+          {
+            "label": "Multi-location calendars",
+            "values": [
+              false,
+              false,
+              true
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Integrations & setup",
+        "rows": [
+          {
+            "label": "Integrations",
+            "hint": "Starter includes 10 integrations. Unlimited integrations start on Premium.",
+            "values": [
+              "10",
+              "Unlimited",
+              "Unlimited"
+            ]
+          },
+          {
+            "label": "Multi-currency",
+            "values": [
+              false,
+              true,
+              true
+            ]
+          },
+          {
+            "label": "Multi-timezone",
+            "values": [
+              false,
+              true,
+              true
+            ]
+          },
+          {
+            "label": "Admin permissions",
+            "values": [
+              false,
+              true,
+              true
+            ]
+          },
+          {
+            "label": "Customer portal",
+            "values": [
+              false,
+              true,
+              true
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Reports & automation",
+        "rows": [
+          {
+            "label": "Reports",
+            "hint": "Starter has the basics. Premium has the reports a studio needs. Enterprise can have reports built to spec.",
+            "values": [
+              "Basic",
+              "Standard",
+              "Custom"
+            ]
+          },
+          {
+            "label": "Workflows",
+            "hint": "Enterprise only",
+            "values": [
+              false,
+              false,
+              true
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Enterprise",
+        "rows": [
+          {
+            "label": "Route with Salesforce lookup",
+            "values": [
+              false,
+              false,
+              true
+            ]
+          },
+          {
+            "label": "Connect Microsoft Dynamics",
+            "values": [
+              false,
+              false,
+              true
+            ]
+          },
+          {
+            "label": "Enable SSO & SAML",
+            "values": [
+              false,
+              false,
+              true
+            ]
+          },
+          {
+            "label": "Domain control",
+            "values": [
+              false,
+              false,
+              true
+            ]
+          },
+          {
+            "label": "Audit log compliance",
+            "values": [
+              false,
+              false,
+              true
+            ]
+          },
+          {
+            "label": "Data deletion API",
+            "values": [
+              false,
+              false,
+              true
+            ]
+          },
+          {
+            "label": "Onboarding & implementation",
+            "values": [
+              false,
+              false,
+              true
+            ]
+          },
+          {
+            "label": "Dedicated account support",
+            "values": [
+              false,
+              false,
+              true
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "question": "How are plans priced?",
+        "answer": "Every plan is billed per user, per workspace. Starter is ₹500 monthly, or ₹425/user/month on yearly (15% off). Premium is ₹1,000 monthly, or ₹850/user/month on yearly (15% off). Enterprise starts from ₹12L per year."
+      },
+      {
+        "question": "Which plans include billing?",
+        "answer": "All of them. Starter, Premium, and Enterprise are billed per user, per workspace — not one bill for the whole team."
+      },
+      {
+        "question": "How many people and booking pages do I get?",
+        "answer": "Starter is 1–5 people and 1 booking page with an Indlio watermark. Premium is 2–50 people and unlimited booking pages, with no watermark. Enterprise is 50+ people and unlimited booking pages, with no watermark."
+      },
+      {
+        "question": "What's on Premium that Starter does not have?",
+        "answer": "Multi-currency, multi-timezone, custom forms, the customer portal, unlimited integrations, and standard reports start on Premium. Starter includes 10 integrations, basic reports, and an Indlio watermark on the booking page. Every plan is billed per user, per workspace."
+      },
+      {
+        "question": "What's the difference between Premium and Enterprise?",
+        "answer": "Premium is for one studio that shares a calendar, up to 50 people, unlimited booking pages, and the standard reports. Enterprise adds custom reports, workflows, and multi-location access, plus SSO and SAML, Salesforce and Dynamics, domain control, audit logs, a data deletion API, onboarding and implementation, and dedicated account support."
+      },
+      {
+        "question": "Do I need a credit card to join?",
+        "answer": "No. The waitlist is an email. We'll contact you when Indlio Bookings is ready for the first SMEs."
+      },
+      {
+        "question": "Can I switch plans later?",
+        "answer": "Yes. Start on Starter and move to Premium or Enterprise when the workspace grows."
+      }
+    ]
+  },
+  "closing": {
+    "title": "From the first link to the first booking.",
+    "subtitle": "Join the list. We’ll write when bookings is ready for the first SMEs.",
+    "cta": {
+      "label": "Join waitlist",
+      "href": "https://forms.gle/cFgW1EKVmw9cEaoz8"
+    }
+  }
+}

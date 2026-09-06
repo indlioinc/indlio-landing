@@ -1,0 +1,51 @@
+{
+  "seo": {
+    "title": "Blog — Indlio",
+    "description": "Notes from Indlio on booking software, SMEs, and going live without a six-week implementation."
+  },
+  "eyebrow": "Blog",
+  "title": "Notes on going live.",
+  "subtitle": "Short writing on booking software, no-shows, and the work that happens between sessions.",
+  "empty": "New posts will land here. Join the waitlist and we’ll write when there is something worth sending.",
+  "backLabel": "All posts",
+  "posts": [
+    {
+      "slug": "why-booking-software-fails-smes",
+      "title": "Why booking software fails SMEs",
+      "excerpt": "Independents outgrow spreadsheets. Teams outgrow chat. The jump to enterprise software is a training project they never asked for.",
+      "date": "2026-09-01",
+      "body": [
+        "Most booking tools are built for enterprises or for no one in particular. The first group gets a six-week implementation. The second group gets a form that still lives in someone’s DMs.",
+        "Studios, tutors, and practices do not fail because they lack features. They fail because the product asks for a training session before the first booking.",
+        "Indlio Bookings is the other path: share a link, take classes, consults, and walk-ins, and keep the calendar in one place. Live today, not next month."
+      ]
+    },
+    {
+      "slug": "live-today-not-next-month",
+      "title": "Live today, not next month",
+      "excerpt": "If a client can book while they are still in the room, you keep them. That is the whole product.",
+      "date": "2026-08-18",
+      "body": [
+        "The useful test for booking software is not the feature list. It is whether someone can send a link before the client puts their shoes on.",
+        "Walk-ins, consults, and classes belong on one calendar. Everything else is noise until that path is obvious on a phone.",
+        "We are building Indlio Bookings for that moment — a public page, a shared calendar, and a reminder that feels like a person wrote it."
+      ]
+    },
+    {
+      "slug": "reminders-that-feel-human",
+      "title": "Reminders that feel human",
+      "excerpt": "One missed class should not turn into a no-show habit. The follow-up has to sound like the studio, not a ticket system.",
+      "date": "2026-08-04",
+      "body": [
+        "No-shows are rarely a calendar problem. They are a habit problem. A reminder that reads like a support ticket teaches people to ignore the next one.",
+        "The copy has to be short, specific, and easy to act on. Same flow on a phone as on a laptop. Most bookings happen between sessions.",
+        "That is the standard we are designing for: reminders that cut no-shows without making the front desk sound like a robot."
+      ]
+    }
+  ],
+  "closing": {
+    "title": "Want the next note?",
+    "subtitle": "Join the list. We’ll write when bookings is ready — and when there is something worth reading.",
+    "cta": { "label": "Join waitlist", "href": "https://forms.gle/cFgW1EKVmw9cEaoz8" }
+  }
+}

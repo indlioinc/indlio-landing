@@ -1,0 +1,26 @@
+{
+  "name": "Indlio",
+  "tagline": "Booking software for SMEs",
+  "waitlistUrl": "https://forms.gle/cFgW1EKVmw9cEaoz8",
+  "colors": {
+    "primary": "#6A5AE0",
+    "cyan": "#1DB9DE",
+    "teal": "#14C2A3",
+    "ink": "#0F1222",
+    "muted": "#5B6178",
+    "surface": "#F7F7FB",
+    "white": "#FFFFFF",
+    "accent": "#C8F247",
+    "hero": "#0D0D0D"
+  },
+  "fonts": {
+    "sans": "Inter"
+  },
+  "logos": {
+    "iconColor": "indlio-logo-color-black.png",
+    "fullColor": "indlio-full-logo-color-black.png",
+    "navbar": "indlio-full-logo-white.png",
+    "navbarLight": "indlio-full-logo-color-black.png",
+    "footer": "indlio-full-logo-black.png"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "hero",
+  "eyebrow": "Build for everyone",
+  "title": "Booking software that gets you live today, not next month.",
+  "titleAccent": "",
+  "subtitle": "Share a link. Take classes, consults, and walk-ins. We’re building Indlio Bookings — join the list to be first in.",
+  "form": {
+    "placeholder": "Your work email",
+    "buttonLabel": "Join waitlist",
+    "successMessage": "You’re on the list. We’ll write when Indlio Bookings is ready.",
+    "errorFallback": "Something went wrong. Try again.",
+    "disclaimer": "No spam. Just a thoughtful note when bookings opens."
+  }
+}
