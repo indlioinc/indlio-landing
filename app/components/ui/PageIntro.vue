@@ -4,6 +4,7 @@ defineProps<{
   title: string
   subtitle?: string
   align?: 'left' | 'center'
+  justify?: boolean
 }>()
 </script>
 
@@ -24,7 +25,10 @@ defineProps<{
         <p
           v-if="subtitle"
           class="mt-4 text-[15px] leading-relaxed text-pretty text-muted sm:text-lg"
-          :class="align === 'left' ? 'max-w-xl' : 'mx-auto max-w-xl'"
+          :class="[
+            align === 'left' ? 'max-w-xl' : 'mx-auto max-w-xl',
+            justify && 'text-justify',
+          ]"
         >
           {{ subtitle }}
         </p>

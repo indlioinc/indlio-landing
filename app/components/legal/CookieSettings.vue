@@ -48,7 +48,7 @@ onUnmounted(() => {
   <Teleport to="body">
     <div
       v-if="settingsOpen && cookies"
-      class="fixed inset-0 z-[90] flex items-end justify-center bg-ink/40 p-4 sm:items-center"
+      class="fixed inset-0 z-[90] flex items-end justify-center bg-ink/40 p-4 pb-[max(1rem,env(safe-area-inset-bottom))] sm:items-center"
       role="dialog"
       aria-modal="true"
       :aria-label="cookies.settingsTitle"

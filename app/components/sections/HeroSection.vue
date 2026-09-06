@@ -15,7 +15,7 @@ const comingSoon = computed(() => navbar.value.badge?.label || 'Coming soon')
 
 <template>
   <section
-    class="relative bg-hero flex min-h-svh flex-col overflow-x-clip overflow-y-visible text-white"
+    class="hero-field relative flex min-h-svh flex-col overflow-x-clip overflow-y-visible text-white"
     :id="content.id"
   >
     <HeroBackdrop />

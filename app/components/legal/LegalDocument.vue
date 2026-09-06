@@ -7,9 +7,10 @@ defineProps<{
 </script>
 
 <template>
-  <div class="overflow-x-clip pb-20 sm:pb-28">
+  <div class="overflow-x-clip pb-16 sm:pb-28">
     <PageIntro
       align="left"
+      justify
       :eyebrow="content.eyebrow"
       :title="content.title"
       :subtitle="content.intro"
@@ -19,10 +20,10 @@ defineProps<{
       </p>
     </PageIntro>
 
-    <section class="pt-8 sm:pt-10">
+    <section class="pt-6 sm:pt-10">
       <RevealBlock>
       <Container>
-        <div class="mx-auto max-w-3xl space-y-10">
+        <div class="mx-auto max-w-3xl space-y-8 sm:space-y-10">
           <article
             v-for="section in content.sections"
             :key="section.title"
@@ -33,7 +34,7 @@ defineProps<{
             <p
               v-for="paragraph in section.paragraphs"
               :key="paragraph"
-              class="mt-3 text-[15px] leading-relaxed text-pretty text-muted"
+              class="mt-3 text-[15px] leading-relaxed text-justify break-words text-muted"
             >
               {{ paragraph }}
             </p>

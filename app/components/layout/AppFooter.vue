@@ -245,14 +245,19 @@ function toggleGroup(columnIndex: number, title: string) {
 
     <div class="bg-hero text-white">
       <Container>
-        <div class="flex flex-col items-start gap-4 py-5 text-left text-xs text-white/70 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-6 sm:gap-y-3 sm:py-3.5">
-          <FooterLanguageSelect
-            v-if="footer.languages?.length"
-            :languages="footer.languages"
-            class="shrink-0 text-white"
-          />
+        <div class="flex flex-col gap-3.5 py-4 pb-[max(1rem,env(safe-area-inset-bottom))] text-left text-xs text-white/70 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-6 sm:gap-y-2 sm:py-3.5">
+          <div class="flex w-full items-center justify-between gap-3 sm:w-auto sm:justify-start">
+            <FooterLanguageSelect
+              v-if="footer.languages?.length"
+              :languages="footer.languages"
+              class="shrink-0 text-white"
+            />
+            <p class="shrink-0 text-white/60 sm:hidden">
+              © {{ ui.copyrightLabel }} {{ footer.copyright }} {{ year }}
+            </p>
+          </div>
           <nav
-            class="flex flex-wrap items-center justify-start gap-x-4 gap-y-2 sm:gap-x-6"
+            class="grid w-full grid-cols-2 gap-x-4 gap-y-1 sm:flex sm:w-auto sm:flex-wrap sm:items-center sm:gap-x-6 sm:gap-y-2"
             :aria-label="ui.legal"
           >
             <component
@@ -261,13 +266,13 @@ function toggleGroup(columnIndex: number, title: string) {
               :key="link.label"
               :to="link.href || undefined"
               :type="legalTag(link) === 'button' ? 'button' : undefined"
-              class="transition-colors hover:text-white"
+              class="inline-flex min-h-9 items-center transition-colors hover:text-white"
               @click="isCookieSettings(link) ? openSettings() : undefined"
             >
               {{ link.label }}
             </component>
           </nav>
-          <p class="text-white/60 sm:ml-auto">
+          <p class="hidden text-white/60 sm:ml-auto sm:block">
             © {{ ui.copyrightLabel }} {{ footer.copyright }} {{ year }}
           </p>
         </div>
