@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/fonts', '@nuxt/image'],
+  modules: ['@nuxt/fonts', '@nuxt/image', '@vercel/analytics'],
   css: ['~/assets/css/main.css'],
   alias: {
     '#content': fileURLToPath(new URL('./content', import.meta.url)),
