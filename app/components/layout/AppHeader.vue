@@ -391,7 +391,7 @@ onBeforeUnmount(() => {
       <div
         v-if="open"
         id="mobile-nav"
-        class="flex min-h-0 flex-1 flex-col bg-white lg:hidden"
+        class="flex min-h-0 flex-1 flex-col bg-white font-title lg:hidden"
       >
         <nav
           class="min-h-0 flex-1 overflow-y-auto border-t border-[#ececec]"

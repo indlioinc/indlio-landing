@@ -23,7 +23,7 @@ const columns = computed(() => {
 </script>
 
 <template>
-  <div class="flex">
+  <div class="flex font-title">
     <div
       v-for="(column, index) in columns"
       :key="`${column.heading}-${index}`"
