@@ -20,14 +20,16 @@ function isLastStep(lane: AboutWorkflowLane, index: number) {
 <template>
   <section :id="content.id" class="pb-16 sm:pb-24">
     <Container>
-      <SectionHeading
-        align="center"
-        :eyebrow="content.eyebrow"
-        :title="content.title"
-        :subtitle="content.subtitle"
-      />
+      <RevealBlock>
+        <SectionHeading
+          align="center"
+          :eyebrow="content.eyebrow"
+          :title="content.title"
+          :subtitle="content.subtitle"
+        />
+      </RevealBlock>
 
-      <div class="mx-auto mt-10 grid max-w-5xl items-stretch gap-4 sm:mt-14 lg:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] lg:gap-0">
+      <RevealBlock class="mx-auto mt-10 grid max-w-5xl items-stretch gap-4 sm:mt-14 lg:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] lg:gap-0" :delay="80">
         <article
           v-for="(lane, laneIndex) in [content.current, content.desired]"
           :key="lane.label"
@@ -144,7 +146,7 @@ function isLastStep(lane: AboutWorkflowLane, index: number) {
             </span>
           </span>
         </div>
-      </div>
+      </RevealBlock>
     </Container>
   </section>
 </template>

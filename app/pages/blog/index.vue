@@ -30,6 +30,7 @@ function formatDate(value: string) {
     />
 
     <section id="blog" class="py-12 sm:py-16">
+      <RevealBlock>
       <Container>
         <div v-if="blog.posts.length" class="mx-auto max-w-3xl space-y-4">
           <NuxtLink
@@ -53,6 +54,7 @@ function formatDate(value: string) {
           {{ blog.empty }}
         </p>
       </Container>
+      </RevealBlock>
     </section>
 
     <section

@@ -5,63 +5,26 @@ defineProps<{
   content: IntegrationsContent
 }>()
 
-const root = ref<HTMLElement | null>(null)
-const revealed = ref(false)
-let observer: IntersectionObserver | undefined
-
 function hasHref(href?: string) {
   return Boolean(href && href.trim())
 }
-
-onMounted(() => {
-  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    revealed.value = true
-    return
-  }
-
-  observer = new IntersectionObserver((entries) => {
-    if (entries.some(entry => entry.isIntersecting)) {
-      revealed.value = true
-      observer?.disconnect()
-    }
-  }, {
-    threshold: 0.16,
-    rootMargin: '0px 0px -8% 0px',
-  })
-
-  if (root.value) {
-    observer.observe(root.value)
-  }
-})
-
-onBeforeUnmount(() => {
-  observer?.disconnect()
-})
 </script>
 
 <template>
   <section
-    ref="root"
     class="integrations-section z-20 overflow-x-clip pt-20 pb-24 sm:pt-28 sm:pb-32"
     :id="content.id"
   >
     <Container>
-      <div
-        class="transition duration-700 ease-out"
-        :class="revealed ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'"
-      >
+      <RevealBlock>
         <SectionHeading
           align="center"
           :title="content.title"
           :subtitle="content.subtitle"
         />
-      </div>
+      </RevealBlock>
 
-      <div
-        class="mt-10 transition duration-700 ease-out sm:mt-16"
-        :class="revealed ? 'translate-y-0 opacity-100' : 'translate-y-5 opacity-0'"
-        :style="{ transitionDelay: revealed ? '90ms' : '0ms' }"
-      >
+      <RevealBlock class="mt-10 sm:mt-16" :delay="90">
         <div class="flex flex-col items-center gap-4 sm:gap-6 lg:hidden">
           <div
             v-for="(row, rowIndex) in content.rows.mobile"
@@ -93,12 +56,11 @@ onBeforeUnmount(() => {
             />
           </div>
         </div>
-      </div>
+      </RevealBlock>
 
-      <div
-        class="mt-10 grid gap-4 transition duration-700 ease-out sm:mt-12 md:grid-cols-2 md:gap-6 lg:grid-cols-3"
-        :class="revealed ? 'translate-y-0 opacity-100' : 'translate-y-5 opacity-0'"
-        :style="{ transitionDelay: revealed ? '180ms' : '0ms' }"
+      <RevealBlock
+        class="mt-10 grid gap-4 sm:mt-12 md:grid-cols-2 md:gap-6 lg:grid-cols-3"
+        :delay="180"
       >
         <component
           :is="hasHref(suite.href) ? 'a' : 'article'"
@@ -123,7 +85,7 @@ onBeforeUnmount(() => {
             {{ suite.body }}
           </p>
         </component>
-      </div>
+      </RevealBlock>
     </Container>
   </section>
 </template>

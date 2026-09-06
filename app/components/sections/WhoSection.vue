@@ -55,13 +55,16 @@ const pillClass =
 <template>
   <section :id="content.id" class="pb-16 sm:pb-24">
     <Container>
-      <SectionHeading
-        align="center"
-        :eyebrow="content.eyebrow"
-        :title="content.title"
-        :subtitle="content.subtitle"
-      />
-      <ul class="mx-auto mt-10 flex max-w-4xl flex-wrap justify-center gap-2.5 sm:mt-12 sm:gap-3">
+      <RevealBlock>
+        <SectionHeading
+          align="center"
+          :eyebrow="content.eyebrow"
+          :title="content.title"
+          :subtitle="content.subtitle"
+        />
+      </RevealBlock>
+      <RevealBlock class="mx-auto mt-10 max-w-4xl sm:mt-12" :delay="90">
+      <ul class="flex flex-wrap justify-center gap-2.5 sm:gap-3">
         <li v-for="(item, index) in content.items" :key="item.label">
           <NuxtLink
             v-if="item.href"
@@ -92,6 +95,7 @@ const pillClass =
           </span>
         </li>
       </ul>
+      </RevealBlock>
     </Container>
   </section>
 </template>

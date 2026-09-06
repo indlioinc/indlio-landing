@@ -6,12 +6,12 @@ const { bannerVisible, acceptAll, rejectOptional, openSettings } = useCookieCons
 <template>
   <div
     v-if="bannerVisible && cookies"
-    class="fixed inset-x-0 bottom-0 z-[80] px-4 pb-4 sm:px-6 sm:pb-6"
+    class="fixed right-0 bottom-0 z-[80] w-full max-w-md p-4 sm:p-6"
     role="dialog"
     aria-live="polite"
     :aria-label="cookies.bannerTitle"
   >
-    <div class="mx-auto max-w-3xl rounded-[1.5rem] bg-white p-5 shadow-[0_22px_50px_-28px_rgba(15,18,34,0.45)] ring-1 ring-ink/8 sm:p-6">
+    <div class="rounded-[1.5rem] bg-white p-5 shadow-[0_22px_50px_-28px_rgba(15,18,34,0.45)] ring-1 ring-ink/8 sm:p-6">
       <p class="text-sm font-semibold text-ink">
         {{ cookies.bannerTitle }}
       </p>

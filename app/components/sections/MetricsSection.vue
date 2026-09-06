@@ -19,20 +19,24 @@ const icons = [WhatsappIcon, CalendarCheckIn01Icon, Wallet02Icon, Notebook01Icon
 <template>
   <section :id="content.id" class="py-16 sm:py-24">
     <Container>
-      <SectionHeading
-        v-if="content.title"
-        align="center"
-        :eyebrow="content.eyebrow"
-        :title="content.title"
-        :subtitle="content.subtitle"
-      />
+      <RevealBlock v-if="content.title">
+        <SectionHeading
+          align="center"
+          :eyebrow="content.eyebrow"
+          :title="content.title"
+          :subtitle="content.subtitle"
+        />
+      </RevealBlock>
       <div
         class="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4 lg:gap-5"
         :class="content.title ? 'mt-10 sm:mt-14' : ''"
       >
-        <article
+        <RevealBlock
           v-for="(item, index) in content.items"
           :key="item.label"
+          :delay="index * 70"
+        >
+        <article
           class="rounded-[1.25rem] bg-white p-4 ring-1 ring-ink/6 sm:rounded-[1.75rem] sm:p-7"
         >
           <div class="flex size-11 items-center justify-center rounded-[0.9rem] bg-brand/10 text-brand">
@@ -50,6 +54,7 @@ const icons = [WhatsappIcon, CalendarCheckIn01Icon, Wallet02Icon, Notebook01Icon
             {{ item.body }}
           </p>
         </article>
+        </RevealBlock>
       </div>
     </Container>
   </section>

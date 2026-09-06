@@ -18,6 +18,7 @@ useSeoMeta({
     />
 
     <section id="careers" class="py-12 sm:py-16">
+      <RevealBlock>
       <Container>
         <SectionHeading
           align="center"
@@ -40,9 +41,11 @@ useSeoMeta({
           </article>
         </div>
       </Container>
+      </RevealBlock>
     </section>
 
     <section class="pb-16 sm:pb-24">
+      <RevealBlock>
       <Container>
         <SectionHeading
           align="center"
@@ -83,6 +86,7 @@ useSeoMeta({
           {{ careers.roles.empty }}
         </p>
       </Container>
+      </RevealBlock>
     </section>
 
     <section

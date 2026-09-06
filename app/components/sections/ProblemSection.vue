@@ -9,7 +9,7 @@ defineProps<{
 <template>
   <section :id="content.id" class="py-16 sm:py-24">
     <Container>
-      <div class="grid items-start gap-10 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] lg:gap-16">
+      <RevealBlock class="grid items-start gap-10 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] lg:gap-16">
         <div>
           <SectionHeading
             :eyebrow="content.eyebrow"
@@ -33,7 +33,7 @@ defineProps<{
             {{ content.quote }}
           </p>
         </blockquote>
-      </div>
+      </RevealBlock>
     </Container>
   </section>
 </template>

@@ -15,6 +15,7 @@ defineProps<{
     />
 
     <section v-if="content.quote" class="pt-4 sm:pt-6">
+      <RevealBlock>
       <Container>
         <blockquote class="mx-auto max-w-3xl rounded-[2rem] bg-ink px-6 py-8 text-center text-white sm:rounded-[2.25rem] sm:px-10 sm:py-10">
           <p class="text-[11px] font-semibold uppercase tracking-[0.18em] text-accent">
@@ -25,9 +26,11 @@ defineProps<{
           </p>
         </blockquote>
       </Container>
+      </RevealBlock>
     </section>
 
     <section class="py-12 sm:py-16">
+      <RevealBlock>
       <Container>
         <SectionHeading
           align="center"
@@ -50,6 +53,7 @@ defineProps<{
           </article>
         </div>
       </Container>
+      </RevealBlock>
     </section>
 
     <WhoSection v-if="content.who" :content="content.who" />

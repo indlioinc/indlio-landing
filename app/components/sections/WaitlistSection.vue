@@ -13,7 +13,7 @@ const { branding } = useLandingContent()
     class="relative z-[70] flex scroll-mt-24 items-center px-6 pb-0 pt-16 sm:px-12 sm:pt-24 lg:px-24 lg:pt-32"
     :id="content.id"
   >
-    <div
+    <RevealBlock
       class="mx-auto w-full max-w-4xl -mb-20 rounded-[2rem] bg-white px-5 py-8 shadow-[0_22px_50px_-28px_rgba(15,18,34,0.35)] ring-1 ring-ink/6 sm:-mb-32 sm:max-w-5xl sm:rounded-[2.5rem] sm:px-8 sm:py-12 lg:-mb-40 lg:rounded-[3.5rem] lg:px-10 lg:py-12"
     >
       <div class="grid w-full items-center justify-items-center gap-8 text-center xl:grid-cols-2 xl:justify-items-stretch xl:gap-12 xl:text-left">
@@ -35,6 +35,6 @@ const { branding } = useLandingContent()
           </AppButton>
         </div>
       </div>
-    </div>
+    </RevealBlock>
   </section>
 </template>

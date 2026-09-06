@@ -10,7 +10,7 @@ defineProps<{
 <template>
   <section class="pt-24 sm:pt-28">
     <Container>
-      <div
+      <RevealBlock
         :class="align === 'left' ? 'mx-auto w-full max-w-3xl' : 'mx-auto w-full max-w-3xl text-center'"
       >
         <slot name="leading" />
@@ -34,7 +34,7 @@ defineProps<{
           aria-hidden="true"
         />
         <slot />
-      </div>
+      </RevealBlock>
     </Container>
   </section>
 </template>

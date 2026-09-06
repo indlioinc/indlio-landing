@@ -15,7 +15,7 @@ useHead({
   <div :style="style" class="flex min-h-dvh flex-col overflow-x-clip bg-brand/7 font-sans text-ink antialiased selection:bg-brand/25 selection:text-ink">
     <AppHeader :branding="branding" :navbar="navbar" />
     <main class="flex-1">
-      <NuxtPage />
+      <NuxtPage :transition="{ name: 'page', mode: 'out-in', duration: 280 }" />
     </main>
     <AppFooter :branding="branding" :footer="footer" />
     <CookieBanner />

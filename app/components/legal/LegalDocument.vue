@@ -20,6 +20,7 @@ defineProps<{
     </PageIntro>
 
     <section class="pt-8 sm:pt-10">
+      <RevealBlock>
       <Container>
         <div class="mx-auto max-w-3xl space-y-10">
           <article
@@ -39,6 +40,7 @@ defineProps<{
           </article>
         </div>
       </Container>
+      </RevealBlock>
     </section>
   </div>
 </template>

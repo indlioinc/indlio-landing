@@ -29,7 +29,7 @@ function toggleBio(name: string) {
   <div class="overflow-x-clip">
     <section class="pt-28 sm:pt-32">
       <Container>
-        <div class="mx-auto max-w-4xl border-l-2 border-brand pl-6 sm:pl-10">
+        <RevealBlock class="mx-auto max-w-4xl border-l-2 border-brand pl-6 sm:pl-10">
           <SectionEyebrow :label="about.eyebrow" />
           <h1 class="mt-4 max-w-3xl text-[2rem] font-semibold leading-[1.15] tracking-tight text-ink sm:text-5xl lg:text-[3.5rem] lg:leading-[1.12]">
             {{ about.title }}
@@ -37,13 +37,13 @@ function toggleBio(name: string) {
           <p class="mt-5 max-w-xl text-base leading-relaxed text-pretty text-muted sm:text-xl">
             {{ about.subtitle }}
           </p>
-        </div>
+        </RevealBlock>
       </Container>
     </section>
 
     <section class="py-16 sm:py-24">
       <Container>
-        <div class="overflow-hidden rounded-[2rem] bg-ink px-6 py-12 text-center text-white sm:rounded-[2.5rem] sm:px-12 sm:py-16 lg:px-16">
+        <RevealBlock class="overflow-hidden rounded-[2rem] bg-ink px-6 py-12 text-center text-white sm:rounded-[2.5rem] sm:px-12 sm:py-16 lg:px-16">
           <SectionEyebrow :label="about.opportunity.eyebrow" tone="inverse" />
           <h2 class="mx-auto mt-4 max-w-3xl text-[1.75rem] font-semibold leading-snug tracking-tight text-balance sm:text-4xl lg:text-5xl">
             {{ about.opportunity.title }}
@@ -51,21 +51,26 @@ function toggleBio(name: string) {
           <p class="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-pretty text-white/65 sm:text-lg">
             {{ about.opportunity.body }}
           </p>
-        </div>
+        </RevealBlock>
       </Container>
     </section>
 
     <section v-if="about.founders" class="pb-16 sm:pb-24">
       <Container>
+        <RevealBlock>
         <SectionHeading
           :eyebrow="about.founders.eyebrow"
           :title="about.founders.title"
           :subtitle="about.founders.subtitle"
         />
-        <article
+        </RevealBlock>
+        <RevealBlock
           v-for="person in about.founders.people"
           :key="person.name"
-          class="mt-8 overflow-hidden rounded-[1.75rem] bg-white ring-1 ring-ink/6 sm:mt-12 sm:rounded-[2rem] lg:grid lg:grid-cols-[minmax(17rem,20rem)_minmax(0,1fr)]"
+          class="mt-8 sm:mt-12"
+        >
+        <article
+          class="overflow-hidden rounded-[1.75rem] bg-white ring-1 ring-ink/6 sm:rounded-[2rem] lg:grid lg:grid-cols-[minmax(17rem,20rem)_minmax(0,1fr)]"
         >
           <div class="relative aspect-[4/5] overflow-hidden bg-[#e8e8e8] lg:aspect-auto lg:min-h-full">
             <img
@@ -121,6 +126,7 @@ function toggleBio(name: string) {
             </button>
           </div>
         </article>
+        </RevealBlock>
       </Container>
     </section>
 

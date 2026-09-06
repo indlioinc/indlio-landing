@@ -123,6 +123,7 @@ function mobileCellLabel(value: PricingComparisonValue, planName?: string) {
     </PageIntro>
 
     <section class="py-12 sm:py-16">
+      <RevealBlock>
       <Container>
         <div v-if="pricing.included" class="mx-auto max-w-3xl text-center">
           <p class="text-xs font-semibold uppercase tracking-[0.16em] text-brand">
@@ -246,9 +247,11 @@ function mobileCellLabel(value: PricingComparisonValue, planName?: string) {
           </article>
         </div>
       </Container>
+      </RevealBlock>
     </section>
 
     <section v-if="pricing.comparison" class="py-16 sm:py-24">
+      <RevealBlock>
       <Container>
         <SectionHeading
           :title="pricing.comparison.title"
@@ -404,9 +407,11 @@ function mobileCellLabel(value: PricingComparisonValue, planName?: string) {
           </table>
         </div>
       </Container>
+      </RevealBlock>
     </section>
 
     <section v-if="pricing.faq" class="py-16 sm:py-24">
+      <RevealBlock>
       <Container>
         <div class="mx-auto max-w-3xl">
           <h2 class="text-center text-[1.75rem] font-semibold leading-snug tracking-tight text-ink sm:text-4xl">
@@ -436,6 +441,7 @@ function mobileCellLabel(value: PricingComparisonValue, planName?: string) {
           </div>
         </div>
       </Container>
+      </RevealBlock>
     </section>
 
     <section

@@ -50,6 +50,7 @@ function formatDate(value: string) {
     </PageIntro>
 
     <article class="py-12 sm:py-16">
+      <RevealBlock>
       <Container>
         <div class="mx-auto max-w-2xl space-y-5">
           <p
@@ -61,6 +62,7 @@ function formatDate(value: string) {
           </p>
         </div>
       </Container>
+      </RevealBlock>
     </article>
 
     <section
