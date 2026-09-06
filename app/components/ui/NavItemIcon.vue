@@ -3,6 +3,7 @@ import type { NavIconName } from '~/types/content'
 
 const props = defineProps<{
   name: NavIconName
+  monochrome?: boolean
 }>()
 
 const tones: Record<NavIconName, string> = {
@@ -35,7 +36,7 @@ const paths: Record<NavIconName, string> = {
 <template>
   <span
     class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-[12px]"
-    :class="tones[props.name]"
+    :class="[tones[props.name], props.monochrome && '!text-ink']"
     aria-hidden="true"
   >
     <svg viewBox="0 0 24 24" class="h-[18px] w-[18px]" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">

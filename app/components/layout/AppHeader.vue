@@ -45,7 +45,7 @@ let fadeTimer: ReturnType<typeof setTimeout> | null = null
 
 const surfaceClass = computed(() => {
   if (open.value) {
-    return 'border-b border-ink/6 bg-white/90 backdrop-blur-md'
+    return 'bottom-0 flex flex-col bg-white'
   }
   if (!showBackground.value) {
     return 'bg-transparent'
@@ -133,6 +133,11 @@ function toggleDesktop(label: string) {
 
 function toggleMobile(label: string) {
   mobileOpen.value = mobileOpen.value === label ? null : label
+}
+
+function toggleMenu() {
+  open.value = !open.value
+  mobileOpen.value = null
 }
 
 function onNavLeave(event: MouseEvent) {
@@ -229,6 +234,13 @@ watch(() => route.hash, () => {
   }
 })
 
+watch(open, (isOpen) => {
+  if (!import.meta.client) {
+    return
+  }
+  document.body.style.overflow = isOpen ? 'hidden' : ''
+})
+
 watch(desktopOpen, async (label) => {
   if (!label) {
     return
@@ -245,6 +257,9 @@ onBeforeUnmount(() => {
   window.removeEventListener('resize', updateScroll)
   document.removeEventListener('click', onDocumentClick)
   document.removeEventListener('keydown', onKeydown)
+  if (import.meta.client) {
+    document.body.style.overflow = ''
+  }
 })
 </script>
 
@@ -253,9 +268,10 @@ onBeforeUnmount(() => {
     class="fixed top-0 z-[80] w-full transition-colors duration-300"
     :class="surfaceClass"
   >
-    <Container>
+    <Container :class="open && 'flex min-h-0 flex-1 flex-col'">
       <div
         class="relative"
+        :class="open && 'flex min-h-0 flex-1 flex-col'"
         data-nav-menu
         @mouseleave="onNavLeave"
       >
@@ -332,7 +348,7 @@ onBeforeUnmount(() => {
             :aria-expanded="open"
             aria-controls="mobile-nav"
             :aria-label="open ? ui.closeMenu : ui.openMenu"
-            @click="open = !open"
+            @click="toggleMenu"
           >
             <svg v-if="!open" viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.8">
               <path d="M4 7h16M4 12h16M4 17h16" />
@@ -375,21 +391,25 @@ onBeforeUnmount(() => {
       <div
         v-if="open"
         id="mobile-nav"
-        class="border-t border-ink/6 py-4 lg:hidden"
+        class="flex min-h-0 flex-1 flex-col bg-white lg:hidden"
       >
-        <nav class="flex flex-col gap-1" :aria-label="ui.mobileNav">
-          <template v-for="link in navbar.links" :key="link.label">
-            <div v-if="hasItems(link)">
+        <nav
+          class="min-h-0 flex-1 overflow-y-auto border-t border-[#ececec]"
+          :aria-label="ui.mobileNav"
+        >
+          <template v-for="(link, index) in navbar.links" :key="link.label">
+            <div :class="index > 0 && 'border-t border-[#ececec]'">
+              <template v-if="hasItems(link)">
               <button
                 type="button"
-                class="flex w-full items-center justify-between rounded-xl px-3 py-2.5 text-sm font-medium text-ink"
+                class="flex w-full items-center justify-between px-4 py-4 text-[17px] font-semibold tracking-tight text-ink sm:px-6"
                 :aria-expanded="mobileOpen === link.label"
                 @click="toggleMobile(link.label)"
               >
                 {{ link.label }}
                 <svg
                   viewBox="0 0 24 24"
-                  class="h-4 w-4 text-muted transition-transform duration-200"
+                  class="h-4 w-4 text-ink transition-transform duration-200"
                   :class="mobileOpen === link.label && 'rotate-180'"
                   fill="none"
                   stroke="currentColor"
@@ -398,54 +418,125 @@ onBeforeUnmount(() => {
                   <path d="M6 9l6 6 6-6" />
                 </svg>
               </button>
-              <div v-if="mobileOpen === link.label" class="mb-2 space-y-3 px-3 pb-2">
+              <div
+                v-if="mobileOpen === link.label"
+                class="px-4 pb-5 sm:px-6"
+              >
                 <template v-if="link.columns?.length">
-                  <div v-for="column in link.columns" :key="column.heading">
-                    <p class="mb-1.5 text-[11px] font-medium uppercase tracking-[0.14em] text-[#8b90a0]">
+                  <div
+                    v-for="column in link.columns"
+                    :key="column.heading"
+                    class="mt-5 first:mt-1"
+                  >
+                    <p class="mb-4 text-[11px] font-medium uppercase tracking-[0.16em] text-[#8b90a0]">
                       {{ column.heading }}
                     </p>
-                    <a
-                      v-for="item in column.items"
-                      :key="item.href"
-                      :href="item.href"
-                      class="block rounded-lg py-1.5"
-                      @click.prevent="goTo(item.href)"
+                    <div
+                      v-if="column.variant !== 'featured'"
+                      class="ml-1 border-l border-[#ececec] pl-5"
                     >
-                      <span class="block text-sm font-medium text-ink">{{ item.label }}</span>
-                    </a>
+                      <a
+                        v-for="item in column.items"
+                        :key="item.href"
+                        :href="item.href"
+                        class="block py-3 text-[15px] font-medium text-[#1a2030]"
+                        @click.prevent="goTo(item.href)"
+                      >
+                        {{ item.label }}
+                      </a>
+                    </div>
+                    <div
+                      v-else
+                      class="flex flex-col gap-5"
+                    >
+                      <a
+                        v-for="item in column.items"
+                        :key="item.href"
+                        :href="item.href"
+                        class="flex items-start gap-3"
+                        @click.prevent="goTo(item.href)"
+                      >
+                        <NavItemIcon
+                          v-if="item.icon"
+                          :name="item.icon"
+                          monochrome
+                        />
+                        <span class="min-w-0 pt-0.5">
+                          <span class="flex flex-wrap items-center gap-2">
+                            <span class="text-[15px] font-semibold tracking-tight text-ink">
+                              {{ item.label }}
+                            </span>
+                            <span
+                              v-if="item.badge"
+                              class="rounded-md bg-[#f1f2f4] px-1.5 py-0.5 text-[10px] font-medium text-[#5b6178]"
+                            >
+                              {{ item.badge }}
+                            </span>
+                          </span>
+                          <span
+                            v-if="item.description"
+                            class="mt-0.5 block text-[13px] leading-snug text-[#8b90a0]"
+                          >
+                            {{ item.description }}
+                          </span>
+                        </span>
+                      </a>
+                    </div>
                   </div>
                 </template>
-                <template v-else>
+                <div
+                  v-else
+                  class="mt-1 flex flex-col gap-5"
+                >
                   <a
                     v-for="item in link.items"
                     :key="item.label"
                     :href="item.href"
-                    class="block rounded-lg py-1.5"
+                    class="block"
                     @click.prevent="goTo(item.href)"
                   >
-                    <span class="block text-sm font-medium text-ink">{{ item.label }}</span>
+                    <span class="block text-[15px] font-semibold tracking-tight text-ink">
+                      {{ item.label }}
+                    </span>
+                    <span
+                      v-if="item.description"
+                      class="mt-0.5 block text-[13px] leading-snug text-[#8b90a0]"
+                    >
+                      {{ item.description }}
+                    </span>
                   </a>
-                </template>
+                </div>
               </div>
+              </template>
+              <a
+                v-else
+                :href="link.href"
+                class="flex w-full items-center justify-between px-4 py-4 text-[17px] font-semibold tracking-tight text-ink sm:px-6"
+                @click.prevent="goTo(link.href)"
+              >
+                {{ link.label }}
+                <svg
+                  viewBox="0 0 24 24"
+                  class="h-4 w-4 text-ink"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                >
+                  <path d="M9 6l6 6-6 6" />
+                </svg>
+              </a>
             </div>
-            <a
-              v-else
-              :href="link.href"
-              class="rounded-xl px-3 py-2.5 text-sm font-medium text-ink"
-              @click.prevent="goTo(link.href)"
-            >
-              {{ link.label }}
-            </a>
           </template>
-          <AppButton
+        </nav>
+        <div class="shrink-0 px-4 pb-6 pt-3 sm:px-6">
+          <a
             :href="branding.waitlistUrl"
-            variant="accent"
-            class="mt-4 w-full"
+            class="flex h-12 w-full items-center justify-center rounded-xl bg-[#0b162f] text-sm font-semibold text-white"
             @click="close"
           >
             {{ sections.hero.form.buttonLabel }}
-          </AppButton>
-        </nav>
+          </a>
+        </div>
       </div>
       </div>
     </Container>
