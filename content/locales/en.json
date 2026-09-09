@@ -533,14 +533,12 @@
         ]
       },
       "desired": {
-        "label": "With Indlio",
-        "hint": "Customers book themselves",
+        "label": "3 steps to book",
+        "hint": "Simple and fast.",
         "steps": [
-          "Share booking link",
-          "Customer picks time",
-          "Auto-confirmation",
-          "Auto-reminder",
-          "Appointment"
+          "Pick a slot",
+          "Fill the form",
+          "Confirm booking"
         ]
       }
     },
@@ -780,15 +778,12 @@
       ]
     },
     "desired": {
-      "label": "With Indlio",
-      "hint": "Customers book themselves",
+      "label": "3 steps to book",
+      "hint": "Simple and fast.",
       "steps": [
-        "Share your booking link",
-        "Customer picks a service",
-        "Customer picks a time",
-        "Auto-confirmation sent",
-        "Auto-reminder sent",
-        "Appointment confirmed"
+        "Pick a slot",
+        "Fill the form",
+        "Confirm booking"
       ]
     }
   },
