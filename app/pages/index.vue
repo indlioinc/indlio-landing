@@ -2,6 +2,7 @@
 import type { Component } from 'vue'
 import type { SectionId } from '~/types/content'
 import MetricsSection from '~/components/sections/MetricsSection.vue'
+import ImpactSection from '~/components/sections/ImpactSection.vue'
 import ProblemSection from '~/components/sections/ProblemSection.vue'
 import WorkflowSection from '~/components/sections/WorkflowSection.vue'
 import WhoSection from '~/components/sections/WhoSection.vue'
@@ -15,6 +16,7 @@ const LazyWaitlistSection = resolveComponent('LazyWaitlistSection')
 const registry: Partial<Record<SectionId, Component>> = {
   hero: HeroSection,
   metrics: MetricsSection,
+  impact: ImpactSection,
   problem: ProblemSection,
   workflow: WorkflowSection,
   who: WhoSection,
