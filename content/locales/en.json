@@ -9,144 +9,87 @@
   "navbar": {
     "links": [
       {
-        "label": "Product",
-        "href": "/product",
+        "label": "Products",
+        "href": "/product-tour",
         "items": [
           {
-            "label": "Features",
-            "href": "/features",
-            "description": "Everything you need to manage bookings.",
+            "label": "Product tour",
+            "href": "/product-tour",
+            "description": "From first link to first booking.",
             "icon": "calendar"
           },
           {
-            "label": "Pricing",
-            "href": "/pricing",
-            "description": "Simple plans for growing businesses.",
-            "icon": "briefcase"
+            "label": "What's new",
+            "href": "/whats-new",
+            "description": "Notes as we ship.",
+            "icon": "spark"
           },
           {
-            "label": "Booking Pages",
-            "href": "/booking-pages",
-            "description": "One link for every booking.",
-            "icon": "book"
-          }
-        ],
-        "columns": [
-          {
-            "heading": "Product",
-            "variant": "featured",
-            "items": [
-              {
-                "label": "Features",
-                "href": "/features",
-                "description": "Everything you need to manage bookings.",
-                "icon": "calendar"
-              },
-              {
-                "label": "Pricing",
-                "href": "/pricing",
-                "description": "Simple plans for growing businesses.",
-                "icon": "briefcase"
-              },
-              {
-                "label": "Booking Pages",
-                "href": "/booking-pages",
-                "description": "One link for every booking.",
-                "icon": "book"
-              }
-            ]
-          },
-          {
-            "heading": "Resources",
-            "variant": "plain",
-            "items": [
-              {
-                "label": "Help Center",
-                "href": "/help"
-              },
-              {
-                "label": "Guides",
-                "href": "/guides"
-              },
-              {
-                "label": "Blog",
-                "href": "/blog"
-              }
-            ]
+            "label": "Developer tools",
+            "href": "/developers",
+            "description": "APIs after the path is solid.",
+            "icon": "code"
           }
         ]
       },
       {
         "label": "Solutions",
-        "href": "/solutions",
+        "href": "/solutions/individuals",
         "items": [
           {
-            "label": "Consultants",
-            "href": "/solutions/consultants",
-            "description": "Book consultations without the email ping-pong"
+            "label": "Individuals",
+            "href": "/solutions/individuals",
+            "description": "For solopreneurs"
           },
           {
-            "label": "Salons & Beauty",
-            "href": "/solutions/salons",
-            "description": "Let customers choose their service and time"
+            "label": "Small business",
+            "href": "/solutions/teams",
+            "description": "For growing businesses"
           },
           {
-            "label": "Clinics & Wellness",
-            "href": "/solutions/clinics",
-            "description": "Easier appointment scheduling"
+            "label": "Large companies",
+            "href": "/solutions/studios",
+            "description": "For enterprise"
           },
           {
-            "label": "Tutors & Coaches",
-            "href": "/solutions/coaches",
-            "description": "Let students book around your availability"
+            "label": "Sales",
+            "href": "/solutions/sales",
+            "description": "Close deals faster"
           },
           {
-            "label": "Freelancers",
-            "href": "/solutions/freelancers",
-            "description": "Turn inquiries into confirmed meetings"
+            "label": "Marketing",
+            "href": "/solutions/marketing",
+            "description": "Generate more leads"
           },
           {
-            "label": "Service Businesses",
-            "href": "/solutions/services",
-            "description": "Easy scheduling for appointments and visits"
-          }
-        ],
-        "columns": [
+            "label": "Customer success",
+            "href": "/solutions/customer-success",
+            "description": "Connect with customers"
+          },
           {
-            "heading": "By industry",
-            "variant": "text",
-            "items": [
-              {
-                "label": "Consultants",
-                "href": "/solutions/consultants",
-                "description": "Book consultations without the email ping-pong"
-              },
-              {
-                "label": "Salons & Beauty",
-                "href": "/solutions/salons",
-                "description": "Let customers choose their service and time"
-              },
-              {
-                "label": "Clinics & Wellness",
-                "href": "/solutions/clinics",
-                "description": "Easier appointment scheduling"
-              },
-              {
-                "label": "Tutors & Coaches",
-                "href": "/solutions/coaches",
-                "description": "Let students book around your availability"
-              },
-              {
-                "label": "Freelancers",
-                "href": "/solutions/freelancers",
-                "description": "Turn inquiries into confirmed meetings"
-              },
-              {
-                "label": "Service Businesses",
-                "href": "/solutions/services",
-                "description": "Easy scheduling for appointments and visits"
-              }
-            ]
+            "label": "Recruiting",
+            "href": "/solutions/recruiting",
+            "description": "Speed up hiring"
+          },
+          {
+            "label": "Education",
+            "href": "/industries/education",
+            "description": "Support student success"
+          },
+          {
+            "label": "Technology",
+            "href": "/industries/technology",
+            "description": "Build better products"
+          },
+          {
+            "label": "Financial Services",
+            "href": "/industries/financial-services",
+            "description": "Boost client engagement"
+          },
+          {
+            "label": "Professional Services",
+            "href": "/industries/professional-services",
+            "description": "Improve client experience"
           }
         ]
       },
@@ -167,20 +110,20 @@
             "title": "Product",
             "links": [
               {
-                "label": "Features",
-                "href": "/features"
+                "label": "Product tour",
+                "href": "/product-tour"
               },
               {
                 "label": "Pricing",
                 "href": "/pricing"
               },
               {
-                "label": "Booking Pages",
-                "href": "/booking-pages"
+                "label": "What's new",
+                "href": "/whats-new"
               },
               {
-                "label": "Integrations",
-                "href": "/integrations"
+                "label": "Developer tools",
+                "href": "/developers"
               }
             ]
           }
@@ -192,24 +135,16 @@
             "title": "Solutions",
             "links": [
               {
-                "label": "Consultants",
-                "href": "/solutions/consultants"
+                "label": "For individuals",
+                "href": "/solutions/individuals"
               },
               {
-                "label": "Salons",
-                "href": "/solutions/salons"
+                "label": "For teams",
+                "href": "/solutions/teams"
               },
               {
-                "label": "Clinics",
-                "href": "/solutions/clinics"
-              },
-              {
-                "label": "Coaches",
-                "href": "/solutions/coaches"
-              },
-              {
-                "label": "Freelancers",
-                "href": "/solutions/freelancers"
+                "label": "For studios",
+                "href": "/solutions/studios"
               }
             ]
           }
@@ -221,16 +156,12 @@
             "title": "Resources",
             "links": [
               {
-                "label": "Help Center",
-                "href": "/help"
+                "label": "Community",
+                "href": "/community"
               },
               {
-                "label": "Guides",
-                "href": "/guides"
-              },
-              {
-                "label": "Contact",
-                "href": "/contact"
+                "label": "Become a partner",
+                "href": "/partners"
               },
               {
                 "label": "Blog",
@@ -250,12 +181,8 @@
                 "href": "/about"
               },
               {
-                "label": "Privacy",
-                "href": "/privacy"
-              },
-              {
-                "label": "Terms",
-                "href": "/terms"
+                "label": "Careers",
+                "href": "/careers"
               }
             ]
           }
