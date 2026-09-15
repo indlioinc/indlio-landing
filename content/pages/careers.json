@@ -32,24 +32,31 @@
     "empty": "No open roles right now. Join the list and we’ll write when a seat opens.",
     "items": [
       {
-        "title": "Founding engineer",
+        "title": "Frontend Developer",
         "location": "Remote · India",
         "type": "Full-time",
-        "body": "Ship Indlio Bookings with the founder — booking pages, calendars, and reminders that stay simple under load.",
+        "body": "Build responsive, accessible booking interfaces using Vue.js and Nuxt. Focus on performance, clean component architecture, and seamless user experiences across devices.",
         "cta": { "label": "Apply", "href": "https://forms.gle/Sj2kjczAu8i3xAdD6" }
       },
       {
-        "title": "Product designer",
+        "title": "Backend Developer",
         "location": "Remote · India",
         "type": "Full-time",
-        "body": "Design the path from first link to first booking. Craft over chrome. Phone and laptop, same flow.",
+        "body": "Design and ship scalable APIs for bookings, payments, and reminders. Work with databases, authentication, and integrations that handle real-world scheduling load.",
         "cta": { "label": "Apply", "href": "https://forms.gle/Sj2kjczAu8i3xAdD6" }
       },
       {
-        "title": "DevOps",
+        "title": "DevOps Engineer",
         "location": "Remote · India",
         "type": "Full-time",
-        "body": "Keep Bookings live and boring to operate — deploys, environments, and the path from commit to the first booking.",
+        "body": "Maintain deployment pipelines, monitoring, and infrastructure. Keep the platform reliable, secure, and simple to operate from commit to production.",
+        "cta": { "label": "Apply", "href": "https://forms.gle/Sj2kjczAu8i3xAdD6" }
+      },
+      {
+        "title": "UI/UX Designer",
+        "location": "Remote · India",
+        "type": "Full-time",
+        "body": "Design intuitive booking flows from first click to confirmation. Create interfaces that work beautifully on mobile and desktop with minimal friction.",
         "cta": { "label": "Apply", "href": "https://forms.gle/Sj2kjczAu8i3xAdD6" }
       }
     ]
